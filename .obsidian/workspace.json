@@ -1,0 +1,242 @@
+{
+  "main": {
+    "id": "14d0dfadb48673d2",
+    "type": "split",
+    "children": [
+      {
+        "id": "a6b9f207f37f033d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec96afd0b1ddd4c1",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Граф"
+            }
+          },
+          {
+            "id": "a2132531786c07af",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Base/Computer Science/WEB/Frontend/React/React.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "React"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "94a761c7745aa7e3",
+    "type": "split",
+    "children": [
+      {
+        "id": "797b87cae4e0bac8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "76f98752c437174a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "0a68fc6dacabd4fe",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "6adfa6bf51400eda",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 233.50000381469727
+  },
+  "right": {
+    "id": "b3abdbf5bc89a3e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "c2dcd1dbcc9b02c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5a3e94196a6dc10b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки"
+            }
+          },
+          {
+            "id": "ac04625d9ff22fce",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки"
+            }
+          },
+          {
+            "id": "42dba23643936242",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "130bdea5b9bb4570",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Все свойства"
+            }
+          },
+          {
+            "id": "8a5a33ed3d6f886e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "omnisearch:Omnisearch": false,
+      "dashboard-navigator:Open dashboard navigator": false,
+      "obsidian-excalidraw-plugin:Создать новый чертеж": false,
+      "random-note:Открыть случайную заметку": false,
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false
+    }
+  },
+  "active": "ec96afd0b1ddd4c1",
+  "lastOpenFiles": [
+    "Base/Computer Science/WEB/Frontend/React/React.md",
+    "Base/Computer Science/NOT WEB/Full guide Windows.md",
+    "Base/Computer Science/NOT WEB/Windows.md",
+    "Base/Computer Science/WEB/Frontend/React/04_Ecosystem/Routing (React Router).md",
+    "Base/Computer Science/WEB/Frontend/Frontend RoadMap.canvas",
+    "Base/Computer Science/WEB/Backend/Backend.canvas",
+    "Base/Computer Science/WEB/Frontend/React/03_Hooks/useFetch.md",
+    "Base/Computer Science/WEB/API.md",
+    "Base/Computer Science/WEB/Frontend/React/03_Hooks/useContext.md",
+    "Base/Computer Science/WEB/Frontend/React/03_Hooks/Custom Hooks.md",
+    "Base/Computer Science/WEB/Frontend/React/03_Hooks/Хуки (Hooks).md",
+    "Base/Computer Science/WEB/Frontend/React/03_Hooks/useRef.md",
+    "Base/Computer Science/WEB/Frontend/React/03_Hooks/useEffect.md",
+    "Base/Computer Science/WEB/Frontend/React/05_State_Management/React Context.md",
+    "Base/Computer Science/WEB/Frontend/React/03_Hooks/useReducer.md",
+    "Base/Computer Science/WEB/Frontend/React/03_Hooks/useState.md",
+    "Base/Computer Science/WEB/Frontend/React/03_Hooks/useCallback.md",
+    "Base/Computer Science/WEB/Frontend/React/02_TypeScript/Generics в React.md",
+    "Base/Computer Science/WEB/Frontend/React/03_Hooks/useMemo.md",
+    "Base/Computer Science/WEB/Frontend/React/02_TypeScript/Keyof и Indexed Types.md",
+    "Base/Computer Science/WEB/Frontend/React/01_Core/JSX.md",
+    "Base/Computer Science/WEB/Frontend/CSS",
+    "Base/Computer Science/WEB/Frontend/React/06_Architecture/Props Spreading.md",
+    "Base/Computer Science/WEB/Frontend/React/01_Core/Состояние (State).md",
+    "Base/Computer Science/WEB/Frontend/React/02_TypeScript/Типизация Props и State.md",
+    "Base/TypeScript.md",
+    "Base/Computer Science/WEB/Frontend/React/01_Core/Компоненты и Props.md",
+    "Base/Computer Science/WEB/Frontend/React/05_State_Management/Redux Toolkit.md",
+    "Base/Computer Science/WEB/Frontend/React/05_State_Management/Redux.md",
+    "Base/Computer Science/NOT WEB",
+    "Base/Computer Science/WEB/Frontend/React/06_Architecture",
+    "Base/Computer Science/WEB/Frontend/React/07_Modern_React/07_Modern_React",
+    "Base/Computer Science/WEB/Frontend/React/07_Modern_React",
+    "Base/Computer Science/WEB/Frontend/React/05_State_Management",
+    "Base/Computer Science/WEB/Frontend/React/04_Ecosystem",
+    "Base/Computer Science/WEB/Frontend/React/03_Hooks",
+    "Base/Computer Science/WEB/Frontend/React/02_TypeScript",
+    "Base/Computer Science/WEB/Frontend/React/01_Core"
+  ]
+}
