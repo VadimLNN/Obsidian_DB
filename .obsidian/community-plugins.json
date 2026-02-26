@@ -3,5 +3,6 @@
   "dataview",
   "oz-clear-unused-images",
   "dashboard-navigator",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "inline-code-highlight"
 ]

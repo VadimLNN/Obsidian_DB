@@ -35,7 +35,8 @@
               "title": "React"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.50000381469727
+    "width": 233.50000381469727,
+    "collapsed": true
   },
   "right": {
     "id": "b3abdbf5bc89a3e8",
@@ -108,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Base/Computer Science/WEB/Frontend/React/04_Ecosystem/Routing (React Router).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки"
+              "title": "Обратные ссылки для Routing (React Router)"
             }
           },
           {
@@ -126,11 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Base/Computer Science/WEB/Frontend/React/04_Ecosystem/Routing (React Router).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки"
+              "title": "Исходящие ссылки из Routing (React Router)"
             }
           },
           {
@@ -168,15 +172,17 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Base/Computer Science/WEB/Frontend/React/04_Ecosystem/Routing (React Router).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура"
+              "title": "Структура Routing (React Router)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -195,15 +201,19 @@
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
-      "bases:Создать новую базу": false
+      "bases:Создать новую базу": false,
+      "ace-code-editor:打开css片段管理器": false
     }
   },
-  "active": "ec96afd0b1ddd4c1",
+  "active": "a2132531786c07af",
   "lastOpenFiles": [
+    "Base/Computer Science/WEB/Frontend/React/04_Ecosystem/Routing (React Router).md",
+    "Base/loaders.md",
     "Base/Computer Science/WEB/Frontend/React/React.md",
+    "Base/Computer Science/WEB/SPA.md",
+    "Base/Computer Science/NOT WEB/Docker.md",
     "Base/Computer Science/NOT WEB/Full guide Windows.md",
     "Base/Computer Science/NOT WEB/Windows.md",
-    "Base/Computer Science/WEB/Frontend/React/04_Ecosystem/Routing (React Router).md",
     "Base/Computer Science/WEB/Frontend/Frontend RoadMap.canvas",
     "Base/Computer Science/WEB/Backend/Backend.canvas",
     "Base/Computer Science/WEB/Frontend/React/03_Hooks/useFetch.md",
@@ -226,9 +236,6 @@
     "Base/Computer Science/WEB/Frontend/React/01_Core/Состояние (State).md",
     "Base/Computer Science/WEB/Frontend/React/02_TypeScript/Типизация Props и State.md",
     "Base/TypeScript.md",
-    "Base/Computer Science/WEB/Frontend/React/01_Core/Компоненты и Props.md",
-    "Base/Computer Science/WEB/Frontend/React/05_State_Management/Redux Toolkit.md",
-    "Base/Computer Science/WEB/Frontend/React/05_State_Management/Redux.md",
     "Base/Computer Science/NOT WEB",
     "Base/Computer Science/WEB/Frontend/React/06_Architecture",
     "Base/Computer Science/WEB/Frontend/React/07_Modern_React/07_Modern_React",
