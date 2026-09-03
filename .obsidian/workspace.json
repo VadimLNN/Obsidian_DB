@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "a6b9f207f37f033d",
+        "id": "20c8e3ea22fd4a70",
         "type": "tabs",
         "children": [
           {
-            "id": "ec96afd0b1ddd4c1",
+            "id": "ab3a86585d93181c",
             "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Граф"
-            }
-          },
-          {
-            "id": "a2132531786c07af",
-            "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Base/Computer Science/WEB/Frontend/React/React.md",
+                "file": "Base/Computer Science/DevOps/Docker/Docker.md",
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "React"
+              "title": "Docker"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -56,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byCreatedTimeReverse",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Файловый менеджер"
@@ -93,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.50000381469727,
-    "collapsed": true
+    "width": 424.83203125
   },
   "right": {
     "id": "b3abdbf5bc89a3e8",
@@ -180,9 +166,19 @@
               "icon": "lucide-list",
               "title": "Структура Routing (React Router)"
             }
+          },
+          {
+            "id": "17f0d81a8c293f00",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -191,9 +187,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "omnisearch:Omnisearch": false,
-      "dashboard-navigator:Open dashboard navigator": false,
-      "obsidian-excalidraw-plugin:Создать новый чертеж": false,
       "random-note:Открыть случайную заметку": false,
       "switcher:Меню быстрого перехода": false,
       "graph:Граф": false,
@@ -202,48 +195,52 @@
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
       "bases:Создать новую базу": false,
-      "ace-code-editor:打开css片段管理器": false
+      "omnisearch:Omnisearch": false,
+      "dashboard-navigator:Open dashboard navigator": false,
+      "obsidian-excalidraw-plugin:Создать новый чертеж": false,
+      "obsidian-spaced-repetition:Изучать карточки": false
     }
   },
-  "active": "a2132531786c07af",
+  "active": "ab3a86585d93181c",
   "lastOpenFiles": [
-    "Base/Computer Science/WEB/Frontend/React/04_Ecosystem/Routing (React Router).md",
-    "Base/loaders.md",
-    "Base/Computer Science/WEB/Frontend/React/React.md",
-    "Base/Computer Science/WEB/SPA.md",
-    "Base/Computer Science/NOT WEB/Docker.md",
-    "Base/Computer Science/NOT WEB/Full guide Windows.md",
-    "Base/Computer Science/NOT WEB/Windows.md",
-    "Base/Computer Science/WEB/Frontend/Frontend RoadMap.canvas",
+    "Мага/СПИ/Лекция 1.md",
+    "Base/Computer Science/OS/Windows/Full guide Windows.md",
+    "Base/Computer Science/OS/Operating System.md",
+    "Base/Computer Science/OS/Windows/Windows.md",
+    "Base/Computer Science/DevOps/DevOps Roadmap.canvas",
+    "Base/Computer Science/OS/Windows",
+    "Base/Computer Science/DevOps/Docker",
+    "Base/Computer Science/OS/Linux/Linux.md",
+    "Base/Computer Science/DevOps/Собес/Git Interview Questions.md",
+    "Base/Computer Science/OS/Linux/Linux Devops.md",
+    "Base/Computer Science/DevOps/Собес/Linux Interview Questions.md",
+    "Base/Computer Science/DevOps/Собес",
+    "Base/Computer Science/OS/Linux",
+    "Мага/СПИ",
+    "Мага",
+    "Мага/СПИ/Вопросы к экзамену СПИ.md",
+    "Мага/СПИ/Вопросы к экзамену СПИ.md",
+    "Base/Computer Science/Programming Languages/Go.md",
+    "Maга/Проблемы современной информатики.md",
+    "Maга",
+    "Base/Computer Science/NO theme/Programming Language.md",
+    "Base/Computer Science/Programming Languages",
+    "Base/Computer Science/NO theme/Git.md",
+    "Base/Computer Science/NO theme/Git - Конспект для собеседований.md",
     "Base/Computer Science/WEB/Backend/Backend.canvas",
-    "Base/Computer Science/WEB/Frontend/React/03_Hooks/useFetch.md",
-    "Base/Computer Science/WEB/API.md",
-    "Base/Computer Science/WEB/Frontend/React/03_Hooks/useContext.md",
-    "Base/Computer Science/WEB/Frontend/React/03_Hooks/Custom Hooks.md",
-    "Base/Computer Science/WEB/Frontend/React/03_Hooks/Хуки (Hooks).md",
-    "Base/Computer Science/WEB/Frontend/React/03_Hooks/useRef.md",
-    "Base/Computer Science/WEB/Frontend/React/03_Hooks/useEffect.md",
-    "Base/Computer Science/WEB/Frontend/React/05_State_Management/React Context.md",
-    "Base/Computer Science/WEB/Frontend/React/03_Hooks/useReducer.md",
-    "Base/Computer Science/WEB/Frontend/React/03_Hooks/useState.md",
-    "Base/Computer Science/WEB/Frontend/React/03_Hooks/useCallback.md",
-    "Base/Computer Science/WEB/Frontend/React/02_TypeScript/Generics в React.md",
-    "Base/Computer Science/WEB/Frontend/React/03_Hooks/useMemo.md",
-    "Base/Computer Science/WEB/Frontend/React/02_TypeScript/Keyof и Indexed Types.md",
-    "Base/Computer Science/WEB/Frontend/React/01_Core/JSX.md",
-    "Base/Computer Science/WEB/Frontend/CSS",
-    "Base/Computer Science/WEB/Frontend/React/06_Architecture/Props Spreading.md",
-    "Base/Computer Science/WEB/Frontend/React/01_Core/Состояние (State).md",
-    "Base/Computer Science/WEB/Frontend/React/02_TypeScript/Типизация Props и State.md",
-    "Base/TypeScript.md",
-    "Base/Computer Science/NOT WEB",
-    "Base/Computer Science/WEB/Frontend/React/06_Architecture",
-    "Base/Computer Science/WEB/Frontend/React/07_Modern_React/07_Modern_React",
-    "Base/Computer Science/WEB/Frontend/React/07_Modern_React",
-    "Base/Computer Science/WEB/Frontend/React/05_State_Management",
-    "Base/Computer Science/WEB/Frontend/React/04_Ecosystem",
-    "Base/Computer Science/WEB/Frontend/React/03_Hooks",
-    "Base/Computer Science/WEB/Frontend/React/02_TypeScript",
-    "Base/Computer Science/WEB/Frontend/React/01_Core"
+    "Base/Computer Science/WEB/Frontend/Frontend RoadMap.canvas",
+    "Files",
+    "Base/Computer Science/NO theme/Computer Science.md",
+    "Base/Computer Science/NO theme/DataBases.md",
+    "Base/Computer Science/NO theme/GitHub.md",
+    "Base/Computer Science/DevOps/Kafka.md",
+    "Base/Computer Science/DevOps/Clouds.md",
+    "Base/Computer Science/DevOps/Vault.md",
+    "Base/Computer Science/DevOps/ArgoCD.md",
+    "Base/Computer Science/DevOps/RabbitMQ.md",
+    "Base/Computer Science/DevOps/Logging.md",
+    "Base/Computer Science/DevOps/Grafana.md",
+    "Base/Computer Science/package-lock.json",
+    "Без названия.canvas"
   ]
 }

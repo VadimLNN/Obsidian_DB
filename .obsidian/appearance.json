@@ -3,5 +3,8 @@
   "baseFontSizeAction": true,
   "theme": "obsidian",
   "cssTheme": "Proper Dark",
-  "accentColor": "#5865f2"
+  "accentColor": "#5865f2",
+  "enabledCssSnippets": [
+    "cards"
+  ]
 }
