@@ -62,12 +62,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Base/Computer Science/DevOps/CI CD курс ориг.md",
+                "file": "Base/Computer Science/DevOps/CI CD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CI CD курс ориг"
+              "title": "CI CD"
             }
           }
         ],
@@ -130,7 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254.01933670043945
+    "width": 321.7821846008301
   },
   "right": {
     "id": "b3abdbf5bc89a3e8",
@@ -253,8 +253,26 @@
   },
   "active": "375f8b744ae75e83",
   "lastOpenFiles": [
-    "Base/Computer Science/DevOps/CI CD.md",
     "Base/Computer Science/DevOps/CI CD курс ориг.md",
+    "Base/Computer Science/DevOps/CI CD.md",
+    "Base/Computer Science/DevOps/CI CD/README.md",
+    "Base/Computer Science/DevOps/CI CD/Практика.md",
+    "Base/Computer Science/DevOps/CI CD/Шпаргалка.md",
+    "Base/Computer Science/DevOps/CI CD/Деплой и безопасность.md",
+    "Base/Computer Science/DevOps/CI CD/Docker в CI CD.md",
+    "Base/Computer Science/DevOps/CI CD/Jenkins.md",
+    "Base/Computer Science/DevOps/CI CD/GitLab CI.md",
+    "Base/Computer Science/DevOps/CI CD/examples/ci-demo/package-lock.json",
+    "Base/Computer Science/DevOps/CI CD/examples/ci-demo/compose.yaml",
+    "Base/Computer Science/DevOps/CI CD/examples/ci-demo/Dockerfile",
+    "Base/Computer Science/DevOps/CI CD/examples/ci-demo/Jenkinsfile",
+    "Base/Computer Science/DevOps/CI CD/examples/ci-demo/app.test.cjs",
+    "Base/Computer Science/DevOps/CI CD/examples/ci-demo/app.cjs",
+    "Base/Computer Science/DevOps/CI CD/examples/ci-demo/package.json",
+    "Base/Computer Science/DevOps/CI CD/examples/ci-demo",
+    "Base/Computer Science/DevOps/CI CD/examples",
+    "Base/Computer Science/DevOps/CI CD/Основы.md",
+    "Base/Computer Science/DevOps/CI CD",
     "Base/Computer Science/DevOps/Docker/Docker Большая шпаргалка.md",
     "Мага/Eng/retel.md",
     "Мага/ПРС/lections.md",
@@ -264,10 +282,7 @@
     "Base/Computer Science/DevOps/Clouds.md",
     "Base/Computer Science/DevOps/Docker/Docker course.md",
     "Мага/ПРС/lab_3/NTR_lab_guide.md",
-    "Мага/ПРС/lab_2/report_lab02_dns_ldap.pdf",
     "Мага/ПРС/lab_2/dns_ldap_astra_lab_guide_v2.md",
-    "Мага/ПРС/2022-05 Именование объектов в распределенной системе.pdf",
-    "Files/2022-05 Именование объектов в распределенной системе.pdf",
     "Files/Pasted image 20261017111312.png",
     "Files/Pasted image 20261017101537.png",
     "Dissertation/free6d_math_explained_for_project.md",
@@ -278,28 +293,13 @@
     "ЕГЭ/Первое_занятие_ЕГЭ_информатика_системы_счисления.md",
     "Files/Pasted image 20261008123029.png",
     "Dissertation/free6d_math_short.md",
-    "ЕГЭ",
     "Dissertation/free6d_mathematics.md",
     "Dissertation/multifields_technical_analysis.md",
-    "Мага/Информ предприятий/Информатизация предприятий, Распределенные системы..pdf",
     "Files/Pasted image 20261003122153.png",
     "Files/Pasted image 20261003122147.png",
     "Files/Pasted image 20261003104644.png",
     "Files/Pasted image 20261003103049.png",
-    "Мага/ПРС/lab_3",
-    "Dissertation",
     "Мага/ПРС/lab_1/lab01_virtualbox_astra_guide.md",
-    "Base/Computer Science/DevOps/ArgoCD.md",
-    "Мага/Eng",
-    "Base/Computer Science/DevOps/DEVOPS BOOTCAMP.md",
-    "Base/Computer Science/DevOps/Как_устроен_Интернет_Просто_DevOps.md",
-    "Мага/Информ предприятий/лекции.md",
-    "Мага/СПИ/Лекция 1.md",
-    "Мага/Информ предприятий",
-    "Мага/ПРС/lab_2",
-    "Мага/СПИ/7 принципов кв механики.md",
-    "Base/Computer Science/DevOps/Собес/Networking Interview Question.md",
-    "Base/Computer Science/DevOps/Собес/Linux Interview Questions.md",
     "Base/Computer Science/WEB/Backend/Backend.canvas",
     "Base/Computer Science/WEB/Frontend/Frontend RoadMap.canvas",
     "Без названия.canvas"
