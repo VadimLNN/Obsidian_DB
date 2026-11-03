@@ -4,24 +4,74 @@
     "type": "split",
     "children": [
       {
-        "id": "20c8e3ea22fd4a70",
+        "id": "bec304d6ef073f73",
         "type": "tabs",
         "children": [
           {
-            "id": "ab3a86585d93181c",
+            "id": "770c9b3bb739b387",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Base/Computer Science/DevOps/DevOps Roadmap.canvas",
+                "viewState": {
+                  "x": 142.59045228303174,
+                  "y": 2706.0934192949426,
+                  "zoom": -1.9651483579744184
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-layout-dashboard",
+              "title": "DevOps Roadmap"
+            }
+          },
+          {
+            "id": "79d09385144a030f",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Мага/ПРС/lections.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "lections"
+            }
+          },
+          {
+            "id": "500f8fbb50850413",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Base/Computer Science/DevOps/Docker/Docker.md",
+                "file": "Мага/Eng/retel.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker"
+              "title": "retel"
+            }
+          },
+          {
+            "id": "375f8b744ae75e83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Base/Computer Science/DevOps/CI CD курс ориг.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CI CD курс ориг"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -80,7 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 424.83203125
+    "width": 254.01933670043945
   },
   "right": {
     "id": "b3abdbf5bc89a3e8",
@@ -201,46 +251,57 @@
       "obsidian-spaced-repetition:Изучать карточки": false
     }
   },
-  "active": "ab3a86585d93181c",
+  "active": "375f8b744ae75e83",
   "lastOpenFiles": [
-    "Мага/СПИ/Лекция 1.md",
-    "Base/Computer Science/OS/Windows/Full guide Windows.md",
-    "Base/Computer Science/OS/Operating System.md",
-    "Base/Computer Science/OS/Windows/Windows.md",
+    "Base/Computer Science/DevOps/CI CD.md",
+    "Base/Computer Science/DevOps/CI CD курс ориг.md",
+    "Base/Computer Science/DevOps/Docker/Docker Большая шпаргалка.md",
+    "Мага/Eng/retel.md",
+    "Мага/ПРС/lections.md",
+    "Мага/Предметы.md",
+    "Base/Computer Science/DevOps/Docker/Docker.md",
     "Base/Computer Science/DevOps/DevOps Roadmap.canvas",
-    "Base/Computer Science/OS/Windows",
-    "Base/Computer Science/DevOps/Docker",
-    "Base/Computer Science/OS/Linux/Linux.md",
-    "Base/Computer Science/DevOps/Собес/Git Interview Questions.md",
-    "Base/Computer Science/OS/Linux/Linux Devops.md",
+    "Base/Computer Science/DevOps/Clouds.md",
+    "Base/Computer Science/DevOps/Docker/Docker course.md",
+    "Мага/ПРС/lab_3/NTR_lab_guide.md",
+    "Мага/ПРС/lab_2/report_lab02_dns_ldap.pdf",
+    "Мага/ПРС/lab_2/dns_ldap_astra_lab_guide_v2.md",
+    "Мага/ПРС/2022-05 Именование объектов в распределенной системе.pdf",
+    "Files/2022-05 Именование объектов в распределенной системе.pdf",
+    "Files/Pasted image 20261017111312.png",
+    "Files/Pasted image 20261017101537.png",
+    "Dissertation/free6d_math_explained_for_project.md",
+    "ЕГЭ/Занятие_2_системы_счисления_и_Python.md",
+    "Files/Pasted image 20261010102335.png",
+    "Files/Pasted image 20261010101754.png",
+    "Files/Pasted image 20261010101650.png",
+    "ЕГЭ/Первое_занятие_ЕГЭ_информатика_системы_счисления.md",
+    "Files/Pasted image 20261008123029.png",
+    "Dissertation/free6d_math_short.md",
+    "ЕГЭ",
+    "Dissertation/free6d_mathematics.md",
+    "Dissertation/multifields_technical_analysis.md",
+    "Мага/Информ предприятий/Информатизация предприятий, Распределенные системы..pdf",
+    "Files/Pasted image 20261003122153.png",
+    "Files/Pasted image 20261003122147.png",
+    "Files/Pasted image 20261003104644.png",
+    "Files/Pasted image 20261003103049.png",
+    "Мага/ПРС/lab_3",
+    "Dissertation",
+    "Мага/ПРС/lab_1/lab01_virtualbox_astra_guide.md",
+    "Base/Computer Science/DevOps/ArgoCD.md",
+    "Мага/Eng",
+    "Base/Computer Science/DevOps/DEVOPS BOOTCAMP.md",
+    "Base/Computer Science/DevOps/Как_устроен_Интернет_Просто_DevOps.md",
+    "Мага/Информ предприятий/лекции.md",
+    "Мага/СПИ/Лекция 1.md",
+    "Мага/Информ предприятий",
+    "Мага/ПРС/lab_2",
+    "Мага/СПИ/7 принципов кв механики.md",
+    "Base/Computer Science/DevOps/Собес/Networking Interview Question.md",
     "Base/Computer Science/DevOps/Собес/Linux Interview Questions.md",
-    "Base/Computer Science/DevOps/Собес",
-    "Base/Computer Science/OS/Linux",
-    "Мага/СПИ",
-    "Мага",
-    "Мага/СПИ/Вопросы к экзамену СПИ.md",
-    "Мага/СПИ/Вопросы к экзамену СПИ.md",
-    "Base/Computer Science/Programming Languages/Go.md",
-    "Maга/Проблемы современной информатики.md",
-    "Maга",
-    "Base/Computer Science/NO theme/Programming Language.md",
-    "Base/Computer Science/Programming Languages",
-    "Base/Computer Science/NO theme/Git.md",
-    "Base/Computer Science/NO theme/Git - Конспект для собеседований.md",
     "Base/Computer Science/WEB/Backend/Backend.canvas",
     "Base/Computer Science/WEB/Frontend/Frontend RoadMap.canvas",
-    "Files",
-    "Base/Computer Science/NO theme/Computer Science.md",
-    "Base/Computer Science/NO theme/DataBases.md",
-    "Base/Computer Science/NO theme/GitHub.md",
-    "Base/Computer Science/DevOps/Kafka.md",
-    "Base/Computer Science/DevOps/Clouds.md",
-    "Base/Computer Science/DevOps/Vault.md",
-    "Base/Computer Science/DevOps/ArgoCD.md",
-    "Base/Computer Science/DevOps/RabbitMQ.md",
-    "Base/Computer Science/DevOps/Logging.md",
-    "Base/Computer Science/DevOps/Grafana.md",
-    "Base/Computer Science/package-lock.json",
     "Без названия.canvas"
   ]
 }
