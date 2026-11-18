@@ -97,7 +97,7 @@
 		{"id":"k8s-architecture","type":"text","text":"## Architecture\n**Control Plane**\nAPI Server · etcd · Scheduler\nController Manager · Cloud Controller Manager\n\n**Worker Node**\nkubelet · container runtime · kube-proxy","x":-1700,"y":12520,"width":780,"height":510,"color":"6"},
 		{"id":"k8s-workloads","type":"text","text":"## Workloads / Objects\nPod · Deployment · DaemonSet\nStatefulSet · ConfigMap · Secret\nJob · CronJob","x":-820,"y":12520,"width":520,"height":390,"color":"6"},
 		{"id":"k8s-networking","type":"text","text":"## Networking\nService · Ingress · NetworkPolicy\nCNI · kube-proxy · CoreDNS","x":420,"y":12520,"width":600,"height":340,"color":"6"},
-		{"id":"kubernetes-main","type":"file","file":"DevOps/Kubernetes.md","x":-260,"y":12550,"width":520,"height":210,"color":"5"},
+		{"id":"kubernetes-main","type":"file","file":"Base/Computer Science/DevOps/Kubernetes/Kubernetes.md","x":-260,"y":12550,"width":520,"height":210,"color":"5"},
 		{"id":"k8s-advanced","type":"text","text":"## Advanced\nRBAC · HPA · Operators\nService Mesh · etcd backup\nGitOps · Multi-cluster\nCluster troubleshooting","x":850,"y":13050,"width":790,"height":430,"color":"3"},
 		{"id":"k8s-cluster","type":"text","text":"## Cluster deployment\nkubeadm · kubespray\nmanaged Kubernetes","x":-1000,"y":13140,"width":600,"height":300,"color":"6"},
 		{"id":"k8s-helm","type":"text","text":"## Helm\nChart · values · templates","x":-1700,"y":13140,"width":600,"height":270,"color":"6"},

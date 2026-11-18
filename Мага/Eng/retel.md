@@ -1,44 +1,59 @@
 
-# Systems Thinking Is Vital in the Age of AI
+# 28 Zero-Day Findings in Under Two Days. Is Robotics Security Keeping Pace?
 
-## Machines can automate drudgery but engineers make key decisions
+## VicOne’s AI-assisted research reveals what faster zero-day discovery means for robot safety
 
-Modern engineering projects increasingly combine human judgment with machine capability. An engineer can define a problem, then ask an [artificial intelligence](https://spectrum.ieee.org/topic/artificial-intelligence/) tool to search relevant research and [technical standards](https://spectrum.ieee.org/tag/technical-standards), generate design options, test them in simulation, and compare the results. The engineer can then bring the results to specialists who understand the parts AI cannot judge on its own, such as whether a design can be built safely, whether it makes sense in a particular setting, or how it might affect its users. The final decision about whether and how to move forward remains a human responsibility.
+VicOne identified an initial set of [28 zero-day findings](https://www.zerodayinitiative.com/advisories/upcoming/) in less than two days using AI-assisted research across software and tools supporting the Physical AI ecosystem. These include projects developed or maintained by [Google](https://spectrum.ieee.org/tag/google), [NVIDIA](https://spectrum.ieee.org/tag/nvidia), and [Meta](https://spectrum.ieee.org/tag/meta), among others.
 
-AI can help engineers do early project steps that once required several people with different technical skills. The engineer’s role is therefore expanding from performing each technical step to deciding how people, machines, and specialists’ knowledge should work together on the project.
+Based on initial validation, all 28 findings are classified as zero-day vulnerabilities. The count may change following vendor and vulnerability-authority review, and some findings do not yet have CVE tracking numbers.
 
-## The problem, not the title
+Many of these tools help teams train, simulate, test, and operate robots. Weaknesses in them could influence the models teams build, the test results they trust, and the instructions sent to robots.
 
-Engineering has always been divided into disciplines, and for good reasons. Electrical, mechanical, civil, software, and other engineering fields require deep knowledge that takes years to develop. AI does not replace that need. It simply changes how easily engineers can explore the parts of a problem that sit outside their own specialty.
+These findings create two demands for robotics teams: responding as [AI helps uncover weaknesses faster](https://vicone.com/blog/how-mythos-is-reshaping-vulnerability-management-what-cisos-need-to-know-about-vulnops/?utm_source=ieee-spectrum&utm_medium=sponsored-content&utm_campaign=2026-11), and [assessing how each one could affect robot safety and operations](https://vicone.com/blog/can-a-robot-do-everything-right-and-still-be-unsafe/?utm_source=ieee-spectrum&utm_medium=sponsored-content&utm_campaign=2026-11).
 
-Consider a software engineer working on a [medical device](https://spectrum.ieee.org/medical-mobile-app-ieee-verified). AI can help the engineer review relevant biomedical research, understand unfamiliar terms, analyze data, and build an early model.
+## What AI changes about vulnerability discovery
 
-That does not make the engineer a physician or biomedical expert. It allows the engineer to ask better questions before working with the experts.
+Vulnerability discovery involves examining code, tracing how systems communicate, and testing whether a suspected weakness can actually be exploited. AI can accelerate parts of this work, helping researchers analyze more software in less time. Attackers could use similar capabilities.
 
-The same is true in [energy](https://ieee-pes.org/), transportation, manufacturing, and many other fields. A problem might begin as a software issue and then quickly involve hardware, safety measures, economics, human behavior, and regulations.
+When the weakness is a **zero-day** — previously unknown and without an available fix — faster discovery can leave teams with little time to respond. While that exposure does not necessarily mean an attack has occurred, teams still need to determine whether they use the affected software and what an attacker could access or change.
 
-Engineers do not need to master every field; they need to recognize which expertise the problem requires and bring the right people and tools together.
+## Where the findings sit across the robot lifecycle
 
-## unknown words 
+VicOne’s findings span three stages of the robotics lifecycle: development and training, simulation and validation, and deployment and runtime. Weaknesses at each stage could affect what a robot learns, how it is tested, and how it is controlled.
 
-| №   | Word             | Transcription       | Pronunciation (Russian) | Translation                         |
-| --- | ---------------- | ------------------- | ----------------------- | ----------------------------------- |
-| 1   | Increasingly     | /ɪnˈkriːsɪŋli/      | инкри́сингли            | всё чаще, всё больше                |
-| 2   | Particular       | /pərˈtɪkjələr/      | пэрти́кьюлэр            | конкретный, определённый            |
-| 3   | Judge on its own | /dʒʌdʒ ɑːn ɪts oʊn/ | джадж ан итс оун        | оценивать самостоятельно            |
-| 4   | Therefore        | /ˈðerfɔːr/          | зэ́рфор                 | поэтому, следовательно              |
-| 5   | Measures         | /ˈmeʒərz/           | мэ́жэрз                 | меры, мероприятия                   |
-| 6   | Relevant         | /ˈreləvənt/         | рэ́лэвэнт               | соответствующий, относящийся к делу |
-| 7   | Consider         | /kənˈsɪdər/         | кэнси́дэр               | рассматривать, учитывать            |
-| 8   | Civil            | /ˈsɪvəl/            | си́вэл                  | гражданский                         |
-| 9   | Remains          | /rɪˈmeɪnz/          | римэ́йнз                | остаётся                            |
-| 10  | Compare          | /kəmˈper/           | кэмпэ́р                 | сравнивать                          |
+The following scenarios show how a compromised component could influence the robot at each stage.
 
+- **Development and training: Hidden changes can reach the finished robot  
+    A team downloads a pretrained model to adapt for its robot. Loading a malicious file could give an attacker access to the training system, allowing changes to training data or the model itself. A manipulated model could behave normally during routine testing but respond incorrectly to a particular object, scene, or command after deployment. The risk can enter through a tool the team trusts, before anyone attacks the robot directly.**
+- **Simulation and validation: A passing test could give false confidence  
+    Importing a compromised scene or robot model could give an attacker access to the simulation environment. With sufficient control, the attacker could alter simulated sensor readings, physical conditions, or test results. A robot could then appear to pass tests that should have exposed unsafe behavior, leading the team to approve it for real-world use on the basis of misleading evidence.
+- **Deployment and runtime: Operators could lose visibility or control 
+    An attacker could exploit weaknesses to change files that influence [motion planning](https://spectrum.ieee.org/tag/motion-planning) or send malicious map data that crashes the operator’s monitoring display. Compromising a remote-operation computer could also put the instructions sent to the robot at risk. Depending on the system and its safeguards, these weaknesses could alter robot movement or leave operators unable to see what is happening and respond promptly.
+
+These are potential consequences and not demonstrated outcomes for every finding. Actual effects depend on the attacker’s access, the system’s design, and whether other safeguards prevent the changes from reaching physical behavior.
+
+In a separate demonstration, [VicOne researchers](https://www.linkedin.com/showcase/vicone-lab-r7/posts/?utm_source=ieee-spectrum&utm_medium=sponsored-content&utm_campaign=2026-11) provide a concrete example of a weakness affecting a protective function. The researchers exploited a vulnerability to prevent a robot’s remote-stop command from working. The case shows why teams need to test whether safeguards remain effective when the software supporting them is compromised.
+
+
+## **unknown words**
+
+|№|Word|Transcription|Pronunciation (Russian)|Translation|
+|---|---|---|---|---|
+|1|Initial|/ɪˈnɪʃəl/|инИ́шэл|первоначальный, начальный|
+|2|Vendor|/ˈvendər/|вЭ́ндэр|поставщик, разработчик|
+|3|Demands|/dɪˈmændz/|димЭ́ндз|требования, задачи|
+|4|Assessing|/əˈsesɪŋ/|эсЭ́синг|оценивая, анализируя|
+|5|Whether|/ˈweðər/|уЭ́зэр|ли, whether|
+|6|Accelerate|/əkˈseləreɪt/|эксЭ́лэрэйт|ускорять|
+|7|Exposure|/ɪkˈspoʊʒər/|икспО́ужэр|подверженность риску|
+|8|Occurred|/əˈkɜːrd/|экЁ́рд|произошло, случилось|
+|9|Affected|/əˈfektɪd/|эфЭ́ктид|затронутый, подвергшийся воздействию|
+|10|Span|/spæn/|спЭ́н|охватывать, распространяться на|
 
 ## retel 
-- Modern engineering projects increasingly combine human judgment with machine capability.
-- AI can help engineers do early project steps that once required several people with different technical skills.
-- AI does not replace the need for deep knowledge, but it helps engineers explore problems outside their own specialty.
-- The engineer’s role is expanding from performing each technical step to deciding how people, machines, and specialists’ knowledge should work together.
-- Engineers do not need to master every field; they need to recognize which expertise the problem requires and bring the right people and tools together.
-- The final decision about whether and how to move forward remains a human responsibility.
+- VicOne identified 28 zero-day vulnerabilities in Physical AI tools in less than two days using AI-assisted research.
+- These vulnerabilities can affect robot development, training, simulation, testing, and real-world operation.
+- AI can accelerate vulnerability discovery, but attackers can also use similar capabilities.
+- The findings span three stages of the robotics lifecycle: development and training, simulation and validation, and deployment and runtime.
+- Robotics teams must identify affected software, assess possible risks, and verify that security updates work correctly.
+- Cybersecurity helps protect robots and ensure that safety measures remain effective throughout their lifecycle.

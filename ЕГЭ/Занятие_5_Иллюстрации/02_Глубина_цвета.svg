@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="500" viewBox="0 0 1100 500">
+<rect width="1100" height="500" fill="white"/>
+<text x="550" y="50" text-anchor="middle" font-family="DejaVu Sans" font-size="30" font-weight="700">Количество цветов и глубина цвета</text>
+<text x="550" y="105" text-anchor="middle" font-family="DejaVu Sans" font-size="38" font-weight="700">N ≤ 2ⁱ</text>
+<text x="550" y="142" text-anchor="middle" font-family="DejaVu Sans" font-size="21">i — минимальное целое число бит на один пиксель</text>
+<g font-family="DejaVu Sans">
+  <g transform="translate(85,205)">
+    <rect width="200" height="155" rx="14" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+    <text x="100" y="38" text-anchor="middle" font-size="22" font-weight="700">2 цвета</text>
+    <text x="100" y="82" text-anchor="middle" font-size="30">2¹</text>
+    <text x="100" y="125" text-anchor="middle" font-size="24">1 бит</text>
+  </g>
+  <g transform="translate(330,205)">
+    <rect width="200" height="155" rx="14" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+    <text x="100" y="38" text-anchor="middle" font-size="22" font-weight="700">16 цветов</text>
+    <text x="100" y="82" text-anchor="middle" font-size="30">2⁴</text>
+    <text x="100" y="125" text-anchor="middle" font-size="24">4 бита</text>
+  </g>
+  <g transform="translate(575,205)">
+    <rect width="200" height="155" rx="14" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+    <text x="100" y="38" text-anchor="middle" font-size="22" font-weight="700">256 цветов</text>
+    <text x="100" y="82" text-anchor="middle" font-size="30">2⁸</text>
+    <text x="100" y="125" text-anchor="middle" font-size="24">8 бит</text>
+  </g>
+  <g transform="translate(820,205)">
+    <rect width="200" height="155" rx="14" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+    <text x="100" y="38" text-anchor="middle" font-size="22" font-weight="700">4096 цветов</text>
+    <text x="100" y="82" text-anchor="middle" font-size="30">2¹²</text>
+    <text x="100" y="125" text-anchor="middle" font-size="24">12 бит</text>
+  </g>
+</g>
+<text x="550" y="430" text-anchor="middle" font-family="DejaVu Sans" font-size="23">Например: N = 200 → 2⁷ = 128 мало, 2⁸ = 256 достаточно → i = 8</text>
+</svg>

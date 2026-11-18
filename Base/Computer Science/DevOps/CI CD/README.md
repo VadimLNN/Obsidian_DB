@@ -52,7 +52,7 @@ tags:
 - [Docker](../Docker/Docker.md) подробно объясняет контейнеры, Dockerfile, сети, volumes и registry; раздел 67 содержал только общую схему CI/CD. Основы Docker не скопированы, добавлена ссылка на специализацию.
 - [Git](../../NO%20theme/Git.md) подробно разбирает модель Git и команды. `Git - Конспект для собеседований.md` побайтово дублировал этот документ на момент анализа. Оба файла сохранены; основная ссылка ведёт на `Git.md`.
 - [Linux](../../OS/Linux/Linux.md) и [Linux Devops](../../OS/Linux/Linux%20Devops.md) покрывают shell, процессы, права, сеть и диагностику. Для CI/CD добавлены только связи с exit code, SSH и средой выполнения.
-- [Argo CD](../ArgoCD.md), [Kubernetes](../Kubernetes.md), [Vault](../Vault.md), [Prometheus](../Prometheus.md) и [Grafana](../Grafana.md) — преимущественно планы изучения. Argo CD дополнен обзором из курса; остальные не выдаются за законченные руководства.
+- [Argo CD](../ArgoCD.md), [[Kubernetes]], [Vault](../Vault.md), [Prometheus](../Prometheus.md) и [Grafana](../Grafana.md) — преимущественно планы изучения. Argo CD дополнен обзором из курса; остальные не выдаются за законченные руководства.
 
 ## Исправления и границы достоверности
 

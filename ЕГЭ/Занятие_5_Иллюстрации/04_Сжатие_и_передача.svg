@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+<rect width="1200" height="420" fill="white"/>
+<text x="600" y="50" text-anchor="middle" font-family="DejaVu Sans" font-size="30" font-weight="700">Сжатие и передача</text>
+<g font-family="DejaVu Sans">
+  <rect x="70" y="125" width="245" height="110" rx="14" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+  <text x="192" y="168" text-anchor="middle" font-size="23">Исходный файл</text>
+  <text x="192" y="208" text-anchor="middle" font-size="27" font-weight="700">I₀</text>
+
+  <path d="M325 180H450" stroke="#334155" stroke-width="4"/><path d="M438 169L454 180L438 191" fill="none" stroke="#334155" stroke-width="4"/>
+  <text x="388" y="145" text-anchor="middle" font-size="20">уменьшили на p%</text>
+
+  <rect x="465" y="125" width="265" height="110" rx="14" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/>
+  <text x="597" y="165" text-anchor="middle" font-size="22">После сжатия</text>
+  <text x="597" y="205" text-anchor="middle" font-size="25" font-weight="700">I = I₀ · (1 − p/100)</text>
+
+  <path d="M740 180H850" stroke="#334155" stroke-width="4"/><path d="M838 169L854 180L838 191" fill="none" stroke="#334155" stroke-width="4"/>
+  <text x="795" y="145" text-anchor="middle" font-size="20">канал v</text>
+
+  <rect x="865" y="125" width="265" height="110" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="997" y="165" text-anchor="middle" font-size="22">Время передачи</text>
+  <text x="997" y="205" text-anchor="middle" font-size="29" font-weight="700">t = I / v</text>
+</g>
+<text x="600" y="305" text-anchor="middle" font-family="DejaVu Sans" font-size="23">«Сжали НА 80%» → осталось 20% исходного объёма</text>
+<text x="600" y="350" text-anchor="middle" font-family="DejaVu Sans" font-size="23">Следи, чтобы размер и скорость были выражены в совместимых единицах.</text>
+</svg>
