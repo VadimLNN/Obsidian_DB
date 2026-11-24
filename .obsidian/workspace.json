@@ -8,6 +8,18 @@
         "type": "tabs",
         "children": [
           {
+            "id": "5a3fa5c72da285c1",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Граф"
+            }
+          },
+          {
             "id": "79d09385144a030f",
             "type": "leaf",
             "pinned": true,
@@ -24,35 +36,20 @@
             }
           },
           {
-            "id": "88cb7fe05ce05f3c",
+            "id": "2a87d2b12197ad78",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Base/Computer Science/DevOps/Kubernetes/Основы/Namespace, Labels и Selectors.md",
+                "file": "Base/Computer Science/DevOps/Ansible/Ansible_Course.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Namespace, Labels и Selectors"
-            }
-          },
-          {
-            "id": "b707388de9b27909",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Base/Computer Science/DevOps/Kubernetes/Kubernetes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Kubernetes"
+              "title": "Ansible_Course"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +108,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.2462959289551
+    "width": 273.0826606750488,
+    "collapsed": true
   },
   "right": {
     "id": "b3abdbf5bc89a3e8",
@@ -232,40 +230,44 @@
       "obsidian-spaced-repetition:Изучать карточки": false
     }
   },
-  "active": "b707388de9b27909",
+  "active": "5a3fa5c72da285c1",
   "lastOpenFiles": [
-    "Base/Computer Science/DevOps/Kubernetes/Инструменты и диагностика/Дополнительные инструменты.md",
-    "Base/Computer Science/DevOps/Kubernetes/Инструменты и диагностика/Диагностика и отладка.md",
-    "Base/Computer Science/DevOps/Kubernetes/Инструменты и диагностика/kubectl.md",
-    "Base/Computer Science/DevOps/Kubernetes/Инструменты и диагностика",
-    "Base/Computer Science/DevOps/Kubernetes/Кластеры/Облачный кластер.md",
-    "Base/Computer Science/DevOps/Kubernetes/Кластеры/Self-hosted и Managed Kubernetes.md",
-    "Base/Computer Science/DevOps/Kubernetes/Кластеры/Локальный кластер.md",
-    "Base/Computer Science/DevOps/Kubernetes/Кластеры",
-    "Base/Computer Science/DevOps/Kubernetes/Kubernetes курс.md",
-    "Base/Computer Science/DevOps/Kubernetes/Kubernetes.md",
+    "Base/Computer Science/DevOps/Ansible/Ansible_Course.md",
+    "Base/Computer Science/DevOps/Ansible/Источники.md",
+    "Base/Computer Science/DevOps/Ansible/Шпаргалка.md",
+    "Base/Computer Science/DevOps/Ansible/Дополнительно/Собственные модули.md",
+    "Base/Computer Science/DevOps/Ansible/Дополнительно",
+    "Base/Computer Science/DevOps/Ansible/Практика/Развёртывание приложений.md",
+    "Base/Computer Science/DevOps/Ansible/Практика/Практические задания.md",
+    "Base/Computer Science/DevOps/Ansible/Практика/LEMP на Ubuntu.md",
+    "Base/Computer Science/DevOps/Ansible/Практика",
+    "Base/Computer Science/DevOps/Ansible/Безопасность/Ansible Vault.md",
+    "Base/Computer Science/DevOps/Ansible/Безопасность",
+    "Base/Computer Science/DevOps/Ansible/Roles/Роли.md",
+    "Base/Computer Science/DevOps/Ansible/Roles/Ansible Galaxy и коллекции.md",
+    "Base/Computer Science/DevOps/Ansible/Roles",
+    "Base/Computer Science/DevOps/Ansible/Playbooks/Условия и циклы.md",
+    "Base/Computer Science/DevOps/Ansible/Playbooks/Управление выполнением.md",
+    "Base/Computer Science/DevOps/Ansible/Playbooks/Переменные и шаблоны.md",
+    "Base/Computer Science/DevOps/Ansible/Playbooks/Отладка и проверка.md",
+    "Base/Computer Science/DevOps/Ansible/Playbooks/Модули.md",
+    "Base/Computer Science/DevOps/Ansible/Playbooks/Playbooks.md",
+    "Base/Computer Science/DevOps/Ansible/Playbooks/Handlers.md",
+    "Base/Computer Science/DevOps/Ansible/Playbooks",
+    "Base/Computer Science/DevOps/Ansible/Inventory/Подключение к узлам.md",
+    "Base/Computer Science/DevOps/Ansible/Inventory/Паттерны и динамический Inventory.md",
+    "Base/Computer Science/DevOps/Ansible/Inventory/Inventory.md",
+    "Base/Computer Science/DevOps/Ansible/Inventory",
+    "Base/Computer Science/DevOps/Ansible/Основы/Установка и настройка.md",
+    "Base/Computer Science/DevOps/Ansible/Основы/Обзор Ansible.md",
+    "Base/Computer Science/DevOps/Ansible/Основы/YAML.md",
+    "Base/Computer Science/DevOps/Ansible/Основы",
+    "Base/Computer Science/DevOps/Ansible/Ansible cource.md",
     "Мага/ПРС/lections.md",
-    "Base/Computer Science/DevOps/Kubernetes/Конфигурация и ресурсы/Health Checks.md",
-    "Base/Computer Science/DevOps/Kubernetes/Конфигурация и ресурсы/Requests, Limits и QoS.md",
-    "Base/Computer Science/DevOps/Kubernetes/Конфигурация и ресурсы/ConfigMap.md",
-    "Base/Computer Science/DevOps/Kubernetes/Конфигурация и ресурсы",
-    "Base/Computer Science/DevOps/Kubernetes/Сеть/Ingress.md",
-    "Base/Computer Science/DevOps/Kubernetes/Сеть/DNS и Service Discovery.md",
-    "Base/Computer Science/DevOps/Kubernetes/Сеть/Service.md",
-    "Base/Computer Science/DevOps/Kubernetes/Сеть",
-    "Base/Computer Science/DevOps/Kubernetes/Рабочие нагрузки/StatefulSet.md",
-    "Base/Computer Science/DevOps/Kubernetes/Рабочие нагрузки/Job и CronJob.md",
-    "Base/Computer Science/DevOps/Kubernetes/Рабочие нагрузки/DaemonSet.md",
-    "Base/Computer Science/DevOps/Kubernetes/Рабочие нагрузки/Стратегии обновления.md",
-    "Base/Computer Science/DevOps/Kubernetes/Рабочие нагрузки/Deployment и ReplicaSet.md",
-    "Base/Computer Science/DevOps/Kubernetes/Рабочие нагрузки/Pod.md",
-    "Base/Computer Science/DevOps/Kubernetes/Рабочие нагрузки",
-    "Base/Computer Science/DevOps/Kubernetes/Основы/Namespace, Labels и Selectors.md",
-    "Base/Computer Science/DevOps/Kubernetes/Основы/Управление ресурсами.md",
-    "Base/Computer Science/DevOps/Kubernetes/Основы/Архитектура кластера.md",
-    "Base/Computer Science/DevOps/Kubernetes/Основы/Обзор Kubernetes.md",
-    "Base/Computer Science/DevOps/Kubernetes/Основы",
-    "Base/Computer Science/DevOps/Docker/Docker course.md",
+    "Base/Computer Science/DevOps/DEVOPS BOOTCAMP.md",
+    "Base/Computer Science/DevOps/Ansible",
+    "ЕГЭ/ansvers_diag.py",
+    "Base/Computer Science/DevOps/Kubernetes/Инструменты и диагностика",
     "Files/Pasted image 20261118153340.png",
     "Files/Pasted image 20261118153336.png",
     "Files/Pasted image 20261118150128.png",
@@ -274,10 +276,6 @@
     "Files/Pasted image 20261118145849.png",
     "Files/Pasted image 20261110171653.png",
     "Files/Pasted image 20261110171640.png",
-    "Base/Computer Science/DevOps/Kubernetes",
-    "OS/Linux/Terminal",
-    "OS/Linux",
-    "OS",
     "Base/Computer Science/DevOps/DevOps Roadmap.canvas",
     "ЕГЭ/lesson_5_encoding_img_assets/06_video_frames.svg",
     "ЕГЭ/lesson_5_encoding_img_assets/05_dpi.svg",

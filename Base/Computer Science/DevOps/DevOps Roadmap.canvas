@@ -118,7 +118,7 @@
 		{"id":"cicd-flow-4","type":"text","text":"Deploy","x":670,"y":9755,"width":280,"height":70,"color":"4"},
 		{"id":"cicd-practice-title","type":"text","text":"## Practice pipeline","x":620,"y":9320,"width":650,"height":100,"color":"4"},
 		{"id":"gitlab-base","type":"text","text":"## GitLab CI — Base\nrules · variables · secrets\nartifacts · cache\nbefore/after_script\nRegistry · environments\nmanual deployment","x":-880,"y":9420,"width":600,"height":430,"color":"6"},
-		{"id":"cicd-main","type":"file","file":"Base/Computer Science/DevOps/CI CD.md","x":-225,"y":8660,"width":450,"height":1245,"color":"5"}
+		{"id":"cicd-main","type":"file","file":"Base/Computer Science/DevOps/CI CD/CI CD.md","x":-225,"y":8660,"width":450,"height":1245,"color":"5"}
 	],
 	"edges":[
 		{"id":"e-git-theory","fromNode":"git-main","fromSide":"left","toNode":"git-theory","toSide":"right","color":"6","label":"теория"},
