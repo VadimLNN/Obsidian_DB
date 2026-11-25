@@ -1,3 +1,9 @@
+---
+tags:
+  - linux/administration
+  - education/practice
+---
+
 # Linux Devops
 
 Материалы объединены с общей базой Linux: [[OS/Linux/Linux|карта знаний]].

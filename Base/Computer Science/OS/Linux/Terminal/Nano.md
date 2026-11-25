@@ -1,3 +1,8 @@
+---
+tags:
+  - linux/shell
+---
+
 # Nano
 
 [[OS/Linux/Linux|Карта Linux]] · Источник: Terminal Tools Курс

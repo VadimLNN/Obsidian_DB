@@ -1,8 +1,8 @@
 ---
 tags:
-  - devops
-  - gitops
-  - argocd
+  - devops/ci-cd/argocd
+  - devops/ci-cd/gitops
+  - devops/kubernetes
 status: todo
 ---
 
@@ -12,7 +12,7 @@ Argo CD реализует GitOps-подход: желаемое состоян�
 
 ## Место в CI/CD
 
-В [курсе CI/CD](CI%20CD%20курс%20ориг.md), раздел «ArgoCD и GitOps инструменты», Argo CD рассмотрен обзорно. Он отвечает за доставку декларативного состояния, а тестирование кода и сборку образа обычно выполняют GitLab CI или Jenkins:
+В [курсе CI/CD](CI%20CD%20курс%20ориг.md), раздел «ArgoCD и GitOps инструменты», Argo CD рассмотрен обзорно. Он отвечает за доставку декларативного состояния, а тестирование кода и сборку образа обычно выполняют [[GitLab CI]] или [[Jenkins]]:
 
 ```text
 Commit приложения → CI: test/build → image в registry
@@ -24,7 +24,7 @@ Commit приложения → CI: test/build → image в registry
                                   sync → проверка health
 ```
 
-**Sync status** показывает соответствие желаемого и фактического состояния, **health** — состояние ресурсов по проверкам Argo CD. `Synced` не означает, что все пользовательские сценарии работают. Нужны readiness и проверки приложения.
+**Sync status** показывает соответствие желаемого и фактического состояния, **health** — состояние ресурсов по проверкам Argo CD. `Synced` не означает, что все пользовательские сценарии работают. Нужны [[Health Checks|readiness]] и проверки приложения.
 
 Автоматическая синхронизация — настраиваемая политика. Исправление ручного drift требует `selfHeal`; удаление ресурсов, исчезнувших из Git, управляется `prune`. Они не включаются просто из-за установки Argo CD. См. [Automated Sync Policy](https://argo-cd.readthedocs.io/en/stable/user-guide/auto_sync/).
 

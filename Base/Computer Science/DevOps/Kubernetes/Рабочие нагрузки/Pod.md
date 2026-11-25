@@ -1,3 +1,9 @@
+---
+tags:
+  - devops/kubernetes
+  - devops/containers
+---
+
 # Pod
 
 [[Kubernetes|Карта тем]] · [[Deployment и ReplicaSet]] · [[Health Checks]]
@@ -12,7 +18,7 @@ Pod — минимальная единица размещения в Kubernetes
 
 ![кубернетес поды](https://ucarecdn.stepik.net/9503aef4-5daa-4c32-af16-e445cf9623c3/)
 
-Все контейнеры Pod находятся на одной Node, но Pod одного Kubernetes Namespace могут быть распределены по разным Nodes. Kubernetes Namespace и Linux namespace — разные понятия.
+Все контейнеры Pod находятся на одной Node, но Pod одного Kubernetes Namespace могут быть распределены по разным Nodes. Kubernetes Namespace и [[Cgroups и Namespaces|Linux namespace]] — разные понятия.
 
 ## Жизненный цикл
 

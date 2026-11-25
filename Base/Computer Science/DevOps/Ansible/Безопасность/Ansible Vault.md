@@ -1,3 +1,9 @@
+---
+tags:
+  - devops/ansible
+  - devops/secrets
+---
+
 # Ansible Vault
 
 [[Base/Computer Science/DevOps/Ansible/Ansible|Карта тем]] · [[Base/Computer Science/DevOps/Ansible/Inventory/Подключение к узлам|Подключение к узлам]] · [[Base/Computer Science/DevOps/Ansible/Playbooks/Переменные и шаблоны|Переменные и шаблоны]] · [[Base/Computer Science/DevOps/Ansible/Практика/LEMP на Ubuntu|LEMP на Ubuntu]]
@@ -26,7 +32,7 @@ ansible-vault view secrets.yml
 ansible-playbook site.yml --ask-vault-pass
 ```
 
-Если secrets уже использованы в task, применять `no_log: true`, тщательно настраивать доступ к выводам CI/CD и не отправлять секреты в `debug`, callback-логи и отчёты.
+Если secrets уже использованы в task, применять `no_log: true`, тщательно настраивать доступ к выводам [[CI CD|CI/CD]] и не отправлять секреты в `debug`, callback-логи и отчёты.
 
 Рекомендуемые меры:
 
@@ -40,3 +46,7 @@ ansible-playbook site.yml --ask-vault-pass
 - Не выключать глобально `host_key_checking` ради удобства: это снижает защиту SSH-соединений.
 
 Документация: [Ansible Vault](https://docs.ansible.com/projects/ansible/latest/vault_guide/vault.html).
+
+## Связанные заметки
+
+- [[Vault]]

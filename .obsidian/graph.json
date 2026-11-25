@@ -3,20 +3,112 @@
   "search": "",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
-  "colorGroups": [],
-  "collapse-display": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:\"Base/Countries/\" OR path:\"Computer Science/Posts/\"",
+      "color": {
+        "a": 1,
+        "rgb": 10726340
+      }
+    },
+    {
+      "query": "path:\"Dissertation/\" OR tag:#research/free6d",
+      "color": {
+        "a": 1,
+        "rgb": 16762011
+      }
+    },
+    {
+      "query": "path:\"ЕГЭ/\" OR tag:#education/ege",
+      "color": {
+        "a": 1,
+        "rgb": 16766011
+      }
+    },
+    {
+      "query": "path:\"Мага/\" OR tag:#education/graduate",
+      "color": {
+        "a": 1,
+        "rgb": 16748971
+      }
+    },
+    {
+      "query": "path:\"DevOps/Kubernetes/\" OR tag:#devops/kubernetes",
+      "color": {
+        "a": 1,
+        "rgb": 11955199
+      }
+    },
+    {
+      "query": "path:\"DevOps/Docker/\" OR tag:#devops/docker",
+      "color": {
+        "a": 1,
+        "rgb": 16749099
+      }
+    },
+    {
+      "query": "path:\"DevOps/Ansible/\" OR tag:#devops/ansible",
+      "color": {
+        "a": 1,
+        "rgb": 7925061
+      }
+    },
+    {
+      "query": "path:\"DevOps/CI CD/\" OR tag:#devops/ci-cd",
+      "color": {
+        "a": 1,
+        "rgb": 16731504
+      }
+    },
+    {
+      "query": "path:\"Computer Science/OS/\" OR tag:#linux OR tag:#operating-systems",
+      "color": {
+        "a": 1,
+        "rgb": 4366335
+      }
+    },
+    {
+      "query": "path:\"Frontend/React/\" OR tag:#web/react",
+      "color": {
+        "a": 1,
+        "rgb": 16736466
+      }
+    },
+    {
+      "query": "path:\"Computer Science/NO theme/\" OR path:\"Computer Science/Programming Languages/\" OR tag:#computer-science OR tag:#programming OR tag:#version-control OR tag:#databases",
+      "color": {
+        "a": 1,
+        "rgb": 2545584
+      }
+    },
+    {
+      "query": "path:\"Computer Science/WEB/\" OR tag:#web",
+      "color": {
+        "a": 1,
+        "rgb": 2153973
+      }
+    },
+    {
+      "query": "path:\"Computer Science/DevOps/\" OR tag:#devops OR tag:#messaging",
+      "color": {
+        "a": 1,
+        "rgb": 9666815
+      }
+    }
+  ],
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "textFadeMultiplier": -0.3,
+  "nodeSizeMultiplier": 0.9,
+  "lineSizeMultiplier": 0.5,
   "collapse-forces": false,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.19889953837573493,
+  "centerStrength": 0.399837940037814,
+  "repelStrength": 9.0123345637886,
+  "linkStrength": 0.450166561627802,
+  "linkDistance": 85,
+  "scale": 0.6037811230981817,
   "close": true
 }

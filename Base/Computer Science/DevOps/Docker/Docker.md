@@ -3,12 +3,9 @@ title: Docker
 aliases:
   - Docker конспект
 tags:
-  - devops
-  - docker
-  - containers
-  - linux
-  - networking
-  - compose
+  - devops/docker/compose
+  - devops/containers
+  - linux/networking
 ---
 ## 1. Что такое Docker
 
@@ -111,7 +108,7 @@ Docker использует возможности ядра [[Linux]].
 
 Две фундаментальные технологии:
 
-- **namespaces** — изоляция;
+- **[[Cgroups и Namespaces|namespaces]]** — изоляция;
 - **cgroups** — управление ресурсами.
 
 ---
@@ -1642,7 +1639,7 @@ Multi-stage build позволяет использовать несколько
 
 Особенно полезно для компилируемых языков.
 
-Пример Go:
+Пример [[Go]]:
 
 ```Dockerfile
 FROM golang:1.25 AS builder
@@ -1772,7 +1769,7 @@ docker run \
 
 # 48. Docker Compose
 
-**Docker Compose** позволяет декларативно описать несколько контейнеров в YAML.
+**Docker Compose** позволяет декларативно описать несколько контейнеров в [[YAML]].
 
 Современный стандартный файл:
 
@@ -2210,7 +2207,7 @@ redeploy
 
 # 67. Docker и CI/CD
 
-Docker особенно важен вместе с [CI/CD](CI%20CD.md).
+Docker особенно важен вместе с [[Base/Computer Science/DevOps/CI CD/CI CD|CI/CD]].
 
 Подробно о средах jobs, service-контейнерах, публикации образов и ограничениях изоляции: [Docker в CI/CD](../CI%20CD/Docker%20в%20CI%20CD.md). Образ для выполнения CI-job и собранный образ приложения — разные объекты; наличие `image` в YAML не выполняет `docker build` автоматически.
 
@@ -3048,3 +3045,8 @@ Registry
   ↓
 Deploy
 ```
+
+## Связанные заметки
+
+- [[Docker_Best_Practices]]
+- [[Docker Большая шпаргалка]]

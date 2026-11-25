@@ -1,8 +1,7 @@
 ---
 tags:
-  - devops
-  - ci-cd
-  - docker
+  - devops/ci-cd
+  - devops/docker
 ---
 
 # Docker в CI/CD
@@ -19,13 +18,13 @@ tags:
 | Вспомогательный сервис | `postgres:15`, `redis:7` | Поднять временную БД/кэш для интеграционных тестов |
 | Результат сборки приложения | `registry.example.com/team/app:<version>` | Доставить приложение вместе с runtime в staging и production |
 
-Образ Node для тестов **не становится образом приложения автоматически**. GitLab `image` запускает job в готовом образе, а `docker build` создаёт новый образ из Dockerfile и контекста. Docker CLI внутри контейнера не означает наличие доступного Docker daemon.
+Образ Node для тестов **не становится образом приложения автоматически**. [[GitLab CI|GitLab]] `image` запускает job в готовом образе, а `docker build` создаёт новый образ из Dockerfile и контекста. Docker CLI внутри контейнера не означает наличие доступного Docker daemon.
 
 Docker уменьшает расхождения окружений, фиксируя пользовательскую среду. Он не фиксирует ядро хоста, архитектуру CPU, внешние сервисы, DNS, секреты, данные и ограничения памяти. Поэтому «работает в контейнере CI» не гарантирует «работает в production».
 
 ## Образы для jobs
 
-GitLab Docker executor подготавливает контейнер из `image`, делает исходники доступными в рабочем каталоге и исполняет команды. Shell executor игнорирует этот способ выбора среды: команды работают на хосте. Jenkins использует Docker Pipeline plugin и Docker-capable agent; workspace монтируется в контейнер. [GitLab Docker executor](https://docs.gitlab.com/runner/executors/docker/), [Docker agent в Jenkins](https://www.jenkins.io/doc/book/pipeline/docker/).
+GitLab Docker executor подготавливает контейнер из `image`, делает исходники доступными в рабочем каталоге и исполняет команды. Shell executor игнорирует этот способ выбора среды: команды работают на хосте. [[Jenkins]] использует Docker Pipeline plugin и Docker-capable agent; workspace монтируется в контейнер. [GitLab Docker executor](https://docs.gitlab.com/runner/executors/docker/), [Docker agent в Jenkins](https://www.jenkins.io/doc/book/pipeline/docker/).
 
 В примерах курса встречаются Node 16/18. Для нового учебного проекта выбран Node 22, который на дату подготовки указан как LTS; старые EOL-ветки не используются как рекомендуемая основа. [Сроки поддержки Node.js](https://nodejs.org/en/about/previous-releases).
 
@@ -97,7 +96,7 @@ CMD ["node", "app.cjs"]
 
 Он не пересобирает исходники: копирует уже подготовленный файл `dist/app.cjs`. Runtime запускается от `node`, не root. `EXPOSE` документирует порт, но не публикует его. `.dockerignore` разрешает передавать только нужный файл из `dist/`, исключая `.env`, `.git` и другие материалы из контекста.
 
-Для этого приложения нет сторонних runtime-зависимостей. У настоящего npm-проекта с зависимостями копирования одного файла недостаточно: нужен bundle либо установка production-зависимостей по lock-файлу. Multi-stage build отделяет компиляторы и тестовые инструменты от финального runtime; подробности уже есть в Docker-конспекте. [Рекомендации Docker по сборке](https://docs.docker.com/build/building/best-practices/).
+Для этого приложения нет сторонних runtime-зависимостей. У настоящего npm-проекта с зависимостями копирования одного файла недостаточно: нужен bundle либо установка production-зависимостей по lock-файлу. [[Docker_Best_Practices|Multi-stage build]] отделяет компиляторы и тестовые инструменты от финального runtime; подробности уже есть в Docker-конспекте. [Рекомендации Docker по сборке](https://docs.docker.com/build/building/best-practices/).
 
 Команды из корня **учебного проекта**, при работающем локальном Docker:
 

@@ -1,3 +1,9 @@
+---
+tags:
+  - linux/administration
+  - career/interview
+---
+
 # Linux / DevOps — вопросы с собеседований
 
 #flashcards/devops/linux/interview
@@ -678,3 +684,9 @@ https://medium.com/@sre-devops-interview/ey-devops-engineer-interview-experience
 10. Назвать prevention: alerts, monitoring, logrotate, capacity, tests, limits, runbook.
 
 На интервью `top → free → df → systemctl` без объяснения логики — слабый ответ. Сильный ответ связывает каждую команду с гипотезой.
+
+## Связанные заметки
+
+- [[Linux]]
+- [[Диагностика проблем]]
+- [[Вопросы для самопроверки]]

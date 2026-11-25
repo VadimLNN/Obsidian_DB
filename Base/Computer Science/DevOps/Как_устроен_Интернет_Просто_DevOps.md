@@ -4,13 +4,10 @@ aliases:
   - "ВСЁ, ЧТО НУЖНО ЗНАТЬ ПРО ИНТЕРНЕТ"
   - "Как работает Интернет"
 tags:
-  - devops
-  - networks
-  - internet
-  - dns
-  - tcp-ip
-  - bgp
-  - linux
+  - computer-science/networking/dns
+  - computer-science/networking/tcp-ip
+  - computer-science/networking/bgp
+  - linux/networking
 source: "https://www.youtube.com/watch?v=Ce-HDCrXMtQ"
 channel: "Просто DevOps"
 duration: "25:36"
@@ -85,7 +82,7 @@ flowchart LR
 > **Интернет** — инфраструктура передачи данных.  
 > **Web** — сайты и веб-приложения, которые работают поверх Интернета с использованием HTTP/HTTPS.
 >
-> Кроме Web поверх Интернета существуют SSH, электронная почта, DNS, VPN, мессенджеры и множество других сервисов.
+> Кроме Web поверх Интернета существуют [[SSH и передача файлов|SSH]], электронная почта, DNS, VPN, мессенджеры и множество других сервисов.
 
 ---
 
@@ -201,7 +198,7 @@ flowchart LR
 3. часто выполняет NAT;
 4. может раздавать адреса через DHCP;
 5. часто работает как DNS-forwarder/cache;
-6. обычно содержит базовый firewall.
+6. обычно содержит базовый [[Firewall|firewall]].
 
 ---
 
@@ -311,7 +308,7 @@ Gateway: 192.168.1.1
 
 ## 7.1. Таблица маршрутизации
 
-На Linux:
+На [[Сеть Linux|Linux]]:
 
 ```bash
 ip route
@@ -1414,4 +1411,8 @@ load balancer?
 приложение?
 ```
 
-Именно поэтому понимание устройства Интернета — фундамент для Linux, Docker, Kubernetes, облаков, CI/CD и эксплуатации production-систем.
+Именно поэтому понимание устройства Интернета — фундамент для Linux, [[Docker]], [[Kubernetes]], облаков, CI/CD и эксплуатации production-систем.
+
+## Связанные заметки
+
+- [[Computer Networks]]

@@ -1,3 +1,9 @@
+---
+tags:
+  - devops/ansible
+  - devops/infrastructure-as-code
+---
+
 # YAML
 
 [[Base/Computer Science/DevOps/Ansible/Ansible|Карта тем]] · [[Base/Computer Science/DevOps/Ansible/Inventory/Inventory|Inventory]] · [[Base/Computer Science/DevOps/Ansible/Playbooks/Playbooks|Playbooks]] · [[Base/Computer Science/DevOps/Ansible/Playbooks/Переменные и шаблоны|Переменные и шаблоны]]
@@ -17,7 +23,7 @@ server:
   ssh_port: 22
 ```
 
-`server` — **словарь** с именованными свойствами. Используется для описания одной сущности или набора связанных параметров.
+`server` — **[[Data Structures|словарь]]** с именованными свойствами. Используется для описания одной сущности или набора связанных параметров.
 
 ## Списки (sequence / list / array)
 
@@ -111,3 +117,8 @@ packages:
 ```
 
 **YAML, JSON, INI:** inventory Ansible часто пишут в INI, а playbooks — в YAML; JSON также является допустимой формой структурированных данных, но для чтения playbooks обычно менее удобен.
+
+## Связанные заметки
+
+- [[GitLab CI]]
+- [[Управление ресурсами]]

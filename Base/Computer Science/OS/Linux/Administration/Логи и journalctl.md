@@ -1,3 +1,9 @@
+---
+tags:
+  - linux/administration
+  - devops/logging
+---
+
 # Логи и journalctl
 
 [[OS/Linux/Linux|Карта Linux]]
@@ -91,3 +97,4 @@ journalctl -f
 
 - [[OS/Linux/Terminal/Поиск и обработка текста]]
 - [[OS/Linux/Administration/systemd и сервисы]]
+- [[Logging]]

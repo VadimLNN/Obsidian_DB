@@ -1,3 +1,9 @@
+---
+tags:
+  - devops/kubernetes
+  - computer-science/networking
+---
+
 # DNS и Service Discovery
 
 [[Kubernetes|Карта тем]] · [[Service]] · [[Namespace, Labels и Selectors]]
@@ -24,7 +30,7 @@ Service discovery позволяет клиентам находить прил�
 
 ![k8s service discovery](https://ucarecdn.stepik.net/54d05987-646e-411b-b71f-a46f08987627/)
 
-Разрешение коротких имён зависит от DNS policy и search domains Pod. Для обычного ClusterIP Service результат указывает на виртуальный адрес Service; headless Service может возвращать адреса backend. Стабильное имя StatefulSet Pod не означает неизменный IP. [DNS для Services и Pods](https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/).
+Разрешение коротких имён зависит от DNS policy и search domains Pod. Для обычного ClusterIP Service результат указывает на виртуальный адрес Service; headless Service может возвращать адреса backend. Стабильное имя [[StatefulSet]] Pod не означает неизменный IP. [DNS для Services и Pods](https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/).
 
 ## Диагностический Pod
 
@@ -76,3 +82,7 @@ kubectl -n example-app exec curl-pod -- curl http://example-service/practice
 3. Ответ получен, но код HTTP неожиданный: проверить маршрут приложения, заголовок Host и сам backend.
 
 Успешный `port-forward` не заменяет DNS-проверку из Pod. Стабильный DNS также не гарантирует наличие ready backend. См. [[Диагностика и отладка]].
+
+## Связанные заметки
+
+- [[Computer Networks]]

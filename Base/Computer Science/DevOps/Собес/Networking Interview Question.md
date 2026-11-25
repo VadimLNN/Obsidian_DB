@@ -1,6 +1,8 @@
 ---
 tags:
-  - flashcards/DevOps/Networks
+  - computer-science/networking
+  - career/interview
+  - flashcards/devops/networks
 ---
 ## 1. Обязательные вопросы из Roadmap
 
@@ -711,3 +713,8 @@ Routes/default route, split tunneling, DNS, overlapping CIDR, MTU и firewall.
 Какой универсальный порядок сетевой диагностики?  
 ?  
 1 interface/IP → 2 route → 3 gateway/neighbor → 4 DNS → 5 TCP/UDP port → 6 TLS → 7 HTTP → 8 proxy/LB → 9 app → 10 tcpdump для подтверждения.
+
+## Связанные заметки
+
+- [[Computer Networks]]
+- [[Сеть Linux]]

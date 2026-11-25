@@ -1,3 +1,9 @@
+---
+tags:
+  - linux/networking
+  - computer-science/networking
+---
+
 # Сеть Linux
 
 [[OS/Linux/Linux|Карта Linux]]
@@ -29,7 +35,7 @@ ss -tulpn
 
 ## Linux Networking
 
-Эта тема формально пересекается со следующим блоком roadmap — Networks, но базу надо начать здесь.
+Эта тема формально пересекается со следующим блоком roadmap — [[Computer Networks|Networks]], но базу надо начать здесь.
 
 ### Нужно понимать
 

@@ -1,7 +1,7 @@
 ---
 tags:
-  - devops
-  - terraform
+  - devops/infrastructure-as-code/terraform
+  - devops/cloud
 status: todo
 ---
 

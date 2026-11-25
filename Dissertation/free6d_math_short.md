@@ -1,3 +1,9 @@
+---
+tags:
+  - research/free6d
+  - robotics/kinematics
+  - robotics/motion-control
+---
 # Free6D.3-2.150 — кратко о математике
 
 ## 1. Что делает математика
@@ -471,3 +477,8 @@ SDK
 логами
 экспериментами
 ```
+
+
+## Связанные заметки
+
+- [[Dissertation/free6d_math_explained_for_project|free6d_math_explained_for_project]]

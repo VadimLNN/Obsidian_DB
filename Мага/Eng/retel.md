@@ -1,3 +1,9 @@
+---
+tags:
+  - education/graduate
+  - languages/english
+  - security/robotics
+---
 
 # 28 Zero-Day Findings in Under Two Days. Is Robotics Security Keeping Pace?
 

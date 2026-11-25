@@ -1,8 +1,7 @@
 ---
 tags:
-  - DevOps
-  - Docker
-  - BestPractices
+  - devops/docker
+  - reference/best-practices
 aliases:
   - Docker best practices
 ---
@@ -32,7 +31,7 @@ aliases:
 └─────────────────────────────┘
 ```
 
-**Обычный Dockerfile для Go:**
+**Обычный Dockerfile для [[Go]]:**
 
 ```dockerfile
 FROM golang:1.27
@@ -180,3 +179,7 @@ node_modules/
 - [Docker Docs — Multi-stage builds](https://docs.docker.com/build/building/multi-stage/)
 - [Docker Docs — Dockerfile reference](https://docs.docker.com/reference/dockerfile/)
 - [Docker Docs — Build cache](https://docs.docker.com/build/cache/)
+
+## Связанные заметки
+
+- [[Docker в CI CD]]

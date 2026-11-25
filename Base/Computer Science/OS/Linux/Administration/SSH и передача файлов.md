@@ -1,3 +1,9 @@
+---
+tags:
+  - linux/networking
+  - linux/security
+---
+
 # SSH и передача файлов
 
 [[OS/Linux/Linux|Карта Linux]]

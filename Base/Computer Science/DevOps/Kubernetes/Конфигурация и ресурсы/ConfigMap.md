@@ -1,3 +1,9 @@
+---
+tags:
+  - devops/kubernetes
+  - devops/secrets
+---
+
 # ConfigMap
 
 [[Kubernetes|Карта тем]] · [[Pod]] · [[Deployment и ReplicaSet]]
@@ -167,7 +173,7 @@ kubectl -n example-config create configmap generated-config \
   --from-file=config.yaml --dry-run=client -o yaml > generated-config.yaml
 ```
 
-Полученный файл можно проверить, сохранить в Git и применить через `kubectl apply -f generated-config.yaml`. `--dry-run=client` не подтверждает серверные политики и наличие зависимостей.
+Полученный файл можно проверить, сохранить в [[Git]] и применить через `kubectl apply -f generated-config.yaml`. `--dry-run=client` не подтверждает серверные политики и наличие зависимостей.
 
 ### Приватный TLS-ключ не является ConfigMap
 
@@ -236,3 +242,7 @@ kubectl -n example-config logs deployment/deployment-with-env
 ConfigMap и использующий его Pod должны находиться в одном namespace. Отсутствующее обязательное имя/значение может не дать контейнеру стартовать. При монтировании на существующий каталог его исходное содержимое может быть скрыто mount.
 
 Изменения обычного ConfigMap volume распространяются не мгновенно; приложение должно перечитать файл. `subPath` mount не получает такие обновления. Значения environment не обновляются в уже запущенном контейнере: требуется его перезапуск. Deployment сам по себе не запускает rollout от изменения ConfigMap. [Поведение ConfigMap](https://kubernetes.io/docs/concepts/configuration/configmap/).
+
+## Связанные заметки
+
+- [[Vault]]

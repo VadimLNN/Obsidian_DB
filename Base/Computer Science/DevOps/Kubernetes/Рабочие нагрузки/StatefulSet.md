@@ -1,3 +1,9 @@
+---
+tags:
+  - devops/kubernetes
+  - databases
+---
+
 # StatefulSet
 
 [[Kubernetes|Карта тем]] · [[Deployment и ReplicaSet]] · [[DNS и Service Discovery]]
@@ -6,7 +12,7 @@
 
 StatefulSet управляет Pod, которым необходимы стабильная идентичность, сетевые имена и индивидуальные постоянные тома. Это востребовано у распределённых БД, брокеров и систем хранения, где экземпляры не полностью взаимозаменяемы.
 
-Примеры систем, для которых могут использоваться StatefulSet: MySQL, PostgreSQL, Cassandra, Redis, ZooKeeper, RabbitMQ, Kafka, MinIO и Nexus. ZooKeeper — служба распределённой координации; отнесение его просто к кэшам неточно. Выбор workload-контроллера и оператора зависит от конкретного приложения.
+Примеры систем, для которых могут использоваться StatefulSet: MySQL, PostgreSQL, Cassandra, Redis, ZooKeeper, [[RabbitMQ]], [[Kafka]], MinIO и Nexus. ZooKeeper — служба распределённой координации; отнесение его просто к кэшам неточно. Выбор workload-контроллера и оператора зависит от конкретного приложения.
 
 ## Связь с другими объектами
 

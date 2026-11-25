@@ -1,3 +1,9 @@
+---
+tags:
+  - linux/security
+  - linux/filesystems
+---
+
 # Специальные права и umask
 
 [[OS/Linux/Linux|Карта Linux]] · Источник: Terminal Tools Курс

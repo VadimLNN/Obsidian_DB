@@ -1,8 +1,6 @@
 ---
 tags:
-  - devops
-  - monitoring
-  - prometheus
+  - devops/monitoring/prometheus
 status: todo
 ---
 

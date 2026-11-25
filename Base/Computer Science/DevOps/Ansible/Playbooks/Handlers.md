@@ -1,8 +1,14 @@
+---
+tags:
+  - devops/ansible
+  - linux/administration
+---
+
 # Handlers
 
 [[Base/Computer Science/DevOps/Ansible/Ansible|Карта тем]] · [[Base/Computer Science/DevOps/Ansible/Playbooks/Переменные и шаблоны|Переменные и шаблоны]] · [[Base/Computer Science/DevOps/Ansible/Практика/LEMP на Ubuntu|LEMP на Ubuntu]] · [[Base/Computer Science/DevOps/Ansible/Playbooks/Управление выполнением|Управление выполнением]]
 
-**Handler** — задача, которую Ansible выполняет **по уведомлению об изменении** (`notify`). Типичный случай: конфиг Nginx изменился → нужно проверить и перечитать/перезапустить службу.
+**Handler** — задача, которую Ansible выполняет **по уведомлению об изменении** (`notify`). Типичный случай: конфиг [[Nginx]] изменился → нужно проверить и перечитать/перезапустить службу.
 
 ```yaml
 ---

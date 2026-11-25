@@ -1,8 +1,8 @@
 ---
 tags:
-  - Git
-  - Interview
-  - DevOps
+  - version-control/git
+  - career/interview
+  - devops
 aliases:
   - Git Interview Notes
   - Конспект Git
@@ -44,9 +44,9 @@ aliases:
 
 Это ключевое отличие от классической централизованной VCS: центральный сервер в Git — важная часть командного workflow, но не обязательный центр самой модели данных.
 
-> [!info] Git ≠ GitHub
+> [!info] Git ≠ [[GitHub]]
 > **Git** — система контроля версий, формат объектов, refs и команды для работы с историей.  
-> **GitHub** — сервис вокруг Git: hosting, pull requests, issues, permissions, Actions/CI и т. д.
+> **GitHub** — сервис вокруг Git: hosting, pull requests, issues, permissions, Actions/[[CI CD|CI]] и т. д.
 
 ## Три области, которые нужно держать в голове
 
@@ -1127,7 +1127,7 @@ Remote — именованная конфигурация удалённого 
 git remote -v
 ```
 
-Fetch URL и push URL могут отличаться, например чтение по HTTPS, запись по SSH.
+Fetch URL и push URL могут отличаться, например чтение по HTTPS, запись по [[SSH и передача файлов|SSH]].
 
 ## Remote-tracking branches
 
@@ -1669,7 +1669,7 @@ git bisect reset
 git bisect run ./test-script.sh
 ```
 
-Git использует exit code теста и делает бинарный поиск.
+Git использует exit code теста и делает [[Algorithms|бинарный поиск]].
 
 ## `rev-parse`
 
@@ -2549,3 +2549,7 @@ git tag -a v2.0.0 <commit> -m 'Release 2.0.0'
 > 3. **Операция создаёт новый commit, двигает ref или уничтожает незакоммиченное состояние?**
 >
 > Если эти три пункта понятны, большую часть сложных Git-сценариев можно вывести без зубрёжки.
+
+## Связанные заметки
+
+- [[Git Interview Questions]]

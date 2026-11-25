@@ -1,10 +1,16 @@
+---
+tags:
+  - linux/networking
+  - linux/administration
+---
+
 # Nginx
 
 [[OS/Linux/Linux|Карта Linux]]
 
 ## Nginx
 
-Nginx нужен и как часть Linux-практики, и дальше для Docker/Kubernetes.
+Nginx нужен и как часть Linux-практики, и дальше для [[Docker]]/[[Kubernetes]].
 
 ### Нужно понимать
 
@@ -12,7 +18,7 @@ Nginx нужен и как часть Linux-практики, и дальше д
 - reverse proxy;
 - upstream;
 - virtual host/server block;
-- HTTP headers;
+- [[Computer Networks#13. HTTP и HTTPS|HTTP headers]];
 - access log / error log.
 
 ### Практика

@@ -1,6 +1,11 @@
+---
+tags:
+  - devops
+---
+
 DEVOPS BOOTCAMP
 │
-├── 1. Linux: основы системы
+├── 1. [[Linux]]: основы системы
 │   ├── команды
 │   ├── файлы
 │   ├── pipes / redirection
@@ -12,12 +17,12 @@ DEVOPS BOOTCAMP
 │   └── systemd
 │
 ├── 2. Linux: сервер
-│   ├── SSH
+│   ├── [[SSH и передача файлов|SSH]]
 │   ├── логи
-│   ├── shell scripting
+│   ├── [[Bash-скрипты|shell scripting]]
 │   └── автоматизация
 │
-├── 3. Сети
+├── 3. [[Computer Networks|Сети]]
 │   ├── IP
 │   ├── подсети
 │   ├── TCP/UDP
@@ -27,7 +32,7 @@ DEVOPS BOOTCAMP
 │   ├── ss
 │   └── curl
 │
-├── 4. Nginx
+├── 4. [[Nginx]]
 │   ├── установка
 │   ├── конфигурация
 │   ├── reverse proxy
@@ -37,7 +42,7 @@ DEVOPS BOOTCAMP
 │   ├── rate limiting
 │   └── безопасность
 │
-├── 5. Git
+├── 5. [[Git]]
 │   ├── commit
 │   ├── branches
 │   ├── merge
@@ -49,7 +54,7 @@ DEVOPS BOOTCAMP
 │   ├── rebase
 │   └── reflog
 │
-├── 6. Docker
+├── 6. [[Docker]]
 │   ├── architecture
 │   ├── containers
 │   ├── commands
@@ -67,8 +72,8 @@ DEVOPS BOOTCAMP
 │   ├── environments
 │   └── production compose
 │
-├── 8. CI/CD
-│   ├── GitLab CI
+├── 8. [[CI CD|CI/CD]]
+│   ├── [[GitLab CI]]
 │   ├── pipelines
 │   ├── stages
 │   ├── runners
@@ -81,17 +86,17 @@ DEVOPS BOOTCAMP
 │   ├── Container Registry
 │   └── automated deploy
 │
-├── 9. Ansible
-│   ├── IaC
-│   ├── inventory
+├── 9. [[Ansible]]
+│   ├── [[Terraform|IaC]]
+│   ├── [[Inventory|inventory]]
 │   ├── ad-hoc
 │   ├── modules
-│   ├── playbooks
+│   ├── [[Playbooks|playbooks]]
 │   ├── tasks
 │   ├── templates
-│   ├── handlers
-│   ├── roles
-│   └── Vault
+│   ├── [[Handlers|handlers]]
+│   ├── [[Роли|roles]]
+│   └── [[Ansible Vault|Vault]]
 │
 ├── 10. Terraform
 │   ├── HCL
@@ -105,13 +110,13 @@ DEVOPS BOOTCAMP
 │   ├── locking
 │   └── modules
 │
-├── 11. Kubernetes
+├── 11. [[Kubernetes]]
 │   ├── architecture
-│   ├── kubectl
-│   ├── pods
-│   ├── deployments
+│   ├── [[kubectl]]
+│   ├── [[Pod|pods]]
+│   ├── [[Deployment и ReplicaSet|deployments]]
 │   ├── manifests
-│   ├── services
+│   ├── [[Service|services]]
 │   └── configuration
 │
 └── 12. Kubernetes Production

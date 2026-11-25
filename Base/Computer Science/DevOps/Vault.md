@@ -1,8 +1,6 @@
 ---
 tags:
-  - devops
-  - security
-  - vault
+  - devops/secrets/vault
 status: todo
 ---
 

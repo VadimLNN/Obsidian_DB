@@ -1,3 +1,9 @@
+---
+tags:
+  - linux/administration
+  - devops/docker
+---
+
 # Cgroups и Namespaces
 
 [[OS/Linux/Linux|Карта Linux]]
@@ -42,3 +48,5 @@ cgroups + namespaces
 - [[OS/Linux/Administration/Процессы и сигналы]]
 - [[OS/Linux/Administration/Ресурсы и диагностика]]
 - [[OS/Linux/Administration/systemd и сервисы]]
+- [[Docker]]
+- [[Requests, Limits и QoS]]

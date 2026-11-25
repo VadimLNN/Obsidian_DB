@@ -1,3 +1,9 @@
+---
+tags:
+  - linux/shell
+  - education/practice
+---
+
 # Bash-скрипты
 
 [[OS/Linux/Linux|Карта Linux]]
@@ -118,7 +124,7 @@ OK 200
 
 ##### Скрипт 3 — backup
 
-Создаёт timestamped архив директории:
+Создаёт timestamped [[Архивирование и сжатие|архив]] директории:
 
 ```text
 backup-2026-09-03-2100.tar.gz

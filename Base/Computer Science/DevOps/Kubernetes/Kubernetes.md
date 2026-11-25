@@ -1,7 +1,6 @@
 ---
 tags:
-  - devops
-  - kubernetes
+  - devops/kubernetes
 status: todo
 ---
 

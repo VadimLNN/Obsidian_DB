@@ -1,10 +1,17 @@
+---
+tags:
+  - devops/ansible
+  - web/backend
+  - databases
+---
+
 # LEMP на Ubuntu
 
 [[Base/Computer Science/DevOps/Ansible/Ansible|Карта тем]] · [[Base/Computer Science/DevOps/Ansible/Практика/Развёртывание приложений|Развёртывание приложений]] · [[Base/Computer Science/DevOps/Ansible/Roles/Роли|Роли]] · [[Base/Computer Science/DevOps/Ansible/Безопасность/Ansible Vault|Ansible Vault]] · [[Base/Computer Science/DevOps/Ansible/Playbooks/Handlers|Handlers]]
 
-**Цель:** одним playbook на Ubuntu 24.04 LTS настроить MariaDB, PHP-FPM, Nginx и маленькое PHP-приложение, проверяющее соединение с БД. Этот пример специально упрощён: он показывает **архитектуру автоматизации**, а не является готовым production-шаблоном Laravel.
+**Цель:** одним playbook на Ubuntu 24.04 LTS настроить MariaDB, PHP-FPM, [[Nginx]] и маленькое PHP-приложение, проверяющее соединение с БД. Этот пример специально упрощён: он показывает **архитектуру автоматизации**, а не является готовым production-шаблоном Laravel.
 
-**Предусловия:** пустая Ubuntu 24.04 LTS, SSH-доступ пользователем `deployer` с sudo, Python 3, разрешённые сетевые подключения. В примере SSH работает на порту 22. Изменить имена, IP и параметры для собственного стенда.
+**Предусловия:** пустая Ubuntu 24.04 LTS, SSH-доступ пользователем `deployer` с sudo, Python 3, разрешённые сетевые подключения. В примере [[SSH и передача файлов|SSH]] работает на порту 22. Изменить имена, IP и параметры для собственного стенда.
 
 ## Структура проекта
 
@@ -98,7 +105,7 @@ app_db_password: REPLACE_WITH_LONG_RANDOM_SECRET
     - firewall
 ```
 
-Порядок ролей здесь осознанный: сначала БД и PHP-FPM, затем веб-сервер, файлы приложения и firewall.
+Порядок ролей здесь осознанный: сначала БД и PHP-FPM, затем веб-сервер, файлы приложения и [[Firewall|firewall]].
 
 ## Роль `database`
 

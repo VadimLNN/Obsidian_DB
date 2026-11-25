@@ -4,11 +4,9 @@ aliases:
   - "Конспект Go Tour"
   - "Основы Go"
 tags:
-  - go
-  - golang
-  - programming
-  - backend
-  - concurrency
+  - programming/go
+  - web/backend
+  - programming/concurrency
 source: "https://go.dev/tour/welcome/1"
 status: complete
 ---
@@ -2077,7 +2075,7 @@ go doc fmt.Println    # открыть документацию символа
 Тур даёт синтаксис и ключевую модель языка, но для практической разработки дальше нужны:
 
 1. **Модули и структура проекта** — `go.mod`, пакеты, `internal`, правила импортов.
-2. **Тестирование** — пакет `testing`, табличные тесты, под-тесты, моки через маленькие интерфейсы.
+2. **[[Testing|Тестирование]]** — пакет `testing`, табличные тесты, под-тесты, моки через маленькие интерфейсы.
 3. **Работа с ошибками** — `%w`, `errors.Is`, `errors.As`, собственные типы ошибок.
 4. **Контекст** — `context.Context`, таймауты и отмена операций.
 5. **Стандартная библиотека** — `io`, `os`, `net/http`, `encoding/json`, `time`, `sync`.
@@ -2092,3 +2090,8 @@ go doc fmt.Println    # открыть документацию символа
 ## Источник
 
 - [A Tour of Go](https://go.dev/tour/welcome/1)
+
+## Связанные заметки
+
+- [[Data Structures]]
+- [[Backend]]

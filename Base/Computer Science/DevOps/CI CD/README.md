@@ -1,8 +1,7 @@
 ---
 tags:
-  - devops
-  - ci-cd
-  - index
+  - devops/ci-cd
+  - reference/index
 ---
 
 # CI/CD — конспекты курса

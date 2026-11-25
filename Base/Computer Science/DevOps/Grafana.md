@@ -1,8 +1,6 @@
 ---
 tags:
-  - devops
-  - monitoring
-  - grafana
+  - devops/monitoring/grafana
 status: todo
 ---
 

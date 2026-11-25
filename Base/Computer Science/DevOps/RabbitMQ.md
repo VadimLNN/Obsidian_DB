@@ -1,8 +1,6 @@
 ---
 tags:
-  - devops
-  - rabbitmq
-  - messaging
+  - messaging/rabbitmq
 status: todo
 ---
 

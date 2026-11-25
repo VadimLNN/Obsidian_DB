@@ -1,3 +1,9 @@
+---
+tags:
+  - linux/security
+  - linux/administration
+---
+
 # Root и Sudo
 
 [[OS/Linux/Linux|Карта Linux]] · Источник: Terminal Tools Курс

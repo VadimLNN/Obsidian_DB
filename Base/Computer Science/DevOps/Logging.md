@@ -1,7 +1,7 @@
 ---
 tags:
-  - devops
-  - logging
+  - devops/logging
+  - devops/monitoring
 status: todo
 ---
 

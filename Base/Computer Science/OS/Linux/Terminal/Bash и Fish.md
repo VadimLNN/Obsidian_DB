@@ -1,3 +1,8 @@
+---
+tags:
+  - linux/shell
+---
+
 # Bash и Fish
 
 [[OS/Linux/Linux|Карта Linux]] · [[OS/Linux/Terminal/Основы терминала и Shell]]
@@ -112,7 +117,7 @@ echo "$PATH"
 - `.bashrc`;
 - `.bash_profile`;
 - `.profile`;
-- почему сервис, запущенный через systemd, может не видеть переменные твоего интерактивного shell.
+- почему сервис, запущенный через [[systemd и сервисы|systemd]], может не видеть переменные твоего интерактивного shell.
 
 #### Практика
 

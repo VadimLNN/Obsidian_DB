@@ -1,16 +1,21 @@
+---
+tags:
+  - devops/kubernetes
+---
+
 # Namespace, Labels и Selectors
 
 [[Kubernetes|Карта тем]] · [[Управление ресурсами]] · [[Service]]
 
 ## Namespace
 
-Namespace логически группирует namespaced-ресурсы: Pod, Deployment, Service, ConfigMap. Типичные границы — приложение, команда или окружение `dev`, `staging`, `production`. Имена ресурсов одного вида могут повторяться в разных namespaces.
+Namespace логически группирует namespaced-ресурсы: Pod, Deployment, Service, [[ConfigMap]]. Типичные границы — приложение, команда или окружение `dev`, `staging`, `production`. Имена ресурсов одного вида могут повторяться в разных namespaces.
 
 ![](https://ucarecdn.stepik.net/58e05dff-25b2-413a-a7f0-6b493e550180/)
 
 ![](https://ucarecdn.stepik.net/b30f603b-60d3-4429-ab27-0c904d736d59/)
 
-Namespace не является каталогом файловой системы или Linux network namespace. Pod одного Kubernetes Namespace могут находиться на разных Nodes. Node, PersistentVolume и ClusterRoleBinding относятся к cluster-scoped ресурсам и не помещаются в namespace.
+Namespace не является каталогом файловой системы или [[Cgroups и Namespaces|Linux network namespace]]. Pod одного Kubernetes Namespace могут находиться на разных Nodes. Node, PersistentVolume и ClusterRoleBinding относятся к cluster-scoped ресурсам и не помещаются в namespace.
 
 ## Создание и выбор пространства имён
 

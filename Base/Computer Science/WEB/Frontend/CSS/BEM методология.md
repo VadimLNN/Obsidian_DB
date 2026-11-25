@@ -1,1 +1,10 @@
+---
+tags:
+  - web/css
+---
+
 [https://www.youtube.com/watch?v=M6bC5s_Rjgg&list=TLPQMTgwMjIwMjbld7whJvz_Pw&index=2]
+
+## Связанные заметки
+
+- [[Frontend]]

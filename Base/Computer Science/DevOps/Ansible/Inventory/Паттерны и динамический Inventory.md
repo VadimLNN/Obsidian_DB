@@ -1,3 +1,9 @@
+---
+tags:
+  - devops/ansible
+  - devops/cloud
+---
+
 # Паттерны и динамический Inventory
 
 [[Base/Computer Science/DevOps/Ansible/Ansible|Карта тем]] · [[Base/Computer Science/DevOps/Ansible/Inventory/Inventory|Inventory]] · [[Base/Computer Science/DevOps/Ansible/Playbooks/Управление выполнением|Управление выполнением]]
@@ -28,7 +34,7 @@ ansible-playbook -i inventory.ini site.yml --limit app01
 
 ## Статический и динамический Inventory
 
-**Static inventory** — зафиксированный список хостов в INI/YAML. **Dynamic inventory** получает актуальные адреса и группы из внешнего источника: облака, гипервизора, CMDB, API.
+**Static inventory** — зафиксированный список хостов в INI/YAML. **Dynamic inventory** получает актуальные адреса и группы из внешнего источника: [[Clouds|облака]], гипервизора, CMDB, API.
 
 Применяется, когда инфраструктура часто меняется: VM создаются и удаляются, адреса выдаются автоматически, группы определяются метками.
 

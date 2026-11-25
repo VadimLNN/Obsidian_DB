@@ -1,3 +1,8 @@
+---
+tags:
+  - devops/ansible
+---
+
 # Ansible Galaxy и коллекции
 
 [[Base/Computer Science/DevOps/Ansible/Ansible|Карта тем]] · [[Base/Computer Science/DevOps/Ansible/Roles/Роли|Роли]] · [[Base/Computer Science/DevOps/Ansible/Playbooks/Модули|Модули]] · [[Base/Computer Science/DevOps/Ansible/Дополнительно/Собственные модули|Собственные модули]]

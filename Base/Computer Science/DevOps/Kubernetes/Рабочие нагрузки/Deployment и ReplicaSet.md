@@ -1,3 +1,9 @@
+---
+tags:
+  - devops/kubernetes
+  - devops/deployment
+---
+
 # Deployment и ReplicaSet
 
 [[Kubernetes|Карта тем]] · [[Pod]] · [[Стратегии обновления]]

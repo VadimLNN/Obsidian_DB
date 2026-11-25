@@ -1,3 +1,10 @@
+---
+tags:
+  - education/graduate
+  - linux/administration
+  - linux/networking
+  - virtualization
+---
 # Практическое задание №1
 
 ## Подготовка тестовой инфраструктуры на базе VirtualBox
@@ -15,7 +22,7 @@
 2. Установить VirtualBox Extension Pack.
 3. Скачать ISO Astra Linux.
 4. Установить Astra Linux без графического интерфейса.
-5. Установить базовые средства и SSH.
+5. Установить базовые средства и [[Base/Computer Science/OS/Linux/Administration/SSH и передача файлов|SSH]].
 6. Перевести виртуальный диск в режим **Multiattach**.
 7. Создать вторую VM на том же базовом диске.
 8. Настроить Host-Only сеть VirtualBox.
@@ -23,8 +30,8 @@
 10. Настроить `/etc/issue` для вывода IP до авторизации.
 11. Подключиться к Astra Linux по SSH.
 12. Настроить Bash prompt для `root` и обычного пользователя.
-13. Написать Bash-скрипт для управления `pretty hostname`.
-14. Сделать скрипт исполняемым и доступным только владельцу.
+13. Написать [[Base/Computer Science/OS/Linux/Terminal/Bash-скрипты|Bash-скрипт]] для управления `pretty hostname`.
+14. Сделать скрипт исполняемым и [[Base/Computer Science/OS/Linux/Administration/Права доступа|доступным только владельцу]].
 15. Создать дополнительного обычного пользователя.
 
 ---

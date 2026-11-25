@@ -1,10 +1,17 @@
+---
+tags:
+  - devops/kubernetes
+  - devops/monitoring
+  - devops/logging
+---
+
 # DaemonSet
 
 [[Kubernetes|Карта тем]] · [[Архитектура кластера]] · [[Deployment и ReplicaSet]]
 
 ## Назначение
 
-DaemonSet обеспечивает запуск экземпляра Pod на каждой **подходящей Node** или на выбранной группе узлов. В отличие от Deployment, количество экземпляров определяется набором узлов, на которых должна работать служба, а не фиксированным `replicas`.
+DaemonSet обеспечивает запуск экземпляра [[Pod]] на каждой **подходящей Node** или на выбранной группе узлов. В отличие от Deployment, количество экземпляров определяется набором узлов, на которых должна работать служба, а не фиксированным `replicas`.
 
 ![](https://ucarecdn.stepik.net/a7b4c78e-a2f9-4f89-ad8e-aafff2e7aa03/)
 
@@ -19,7 +26,7 @@ DaemonSet обеспечивает запуск экземпляра Pod на к
 | Диагностика связности | [k8s-pinger](https://github.com/MadEngineX/k8s-pinger) |
 | Размещение входного proxy на узлах | Некоторые варианты развёртывания Ingress controller |
 
-Метрики node-exporter обычно опрашиваются системой мониторинга и затем используются в Prometheus/VictoriaMetrics и Grafana. Наличие DaemonSet не настраивает dashboards и alerts автоматически.
+Метрики node-exporter обычно опрашиваются системой мониторинга и затем используются в Prometheus/VictoriaMetrics и [[Grafana]]. Наличие DaemonSet не настраивает dashboards и alerts автоматически.
 
 ## Ограничения
 

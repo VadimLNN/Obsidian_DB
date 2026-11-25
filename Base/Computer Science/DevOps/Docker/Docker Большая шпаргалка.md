@@ -1,6 +1,12 @@
+---
+tags:
+  - devops/docker
+  - reference/cheatsheet
+---
+
 # Большая шпаргалка по Docker
 
-> Справочник по основным командам Docker, Dockerfile, Docker Compose, сетям, томам, логам и очистке ресурсов.
+> Справочник по основным командам [[Docker]], Dockerfile, Docker Compose, сетям, томам, логам и очистке ресурсов.
 
 ## 1. Контейнеры
 
@@ -726,3 +732,7 @@ Dockerfile
 | Мониторинг | `docker stats` |
 | Использование диска | `docker system df` |
 | Очистка | `docker system prune` |
+
+## Связанные заметки
+
+- [[Docker_Best_Practices]]

@@ -1,3 +1,8 @@
+---
+tags:
+  - devops/ansible
+---
+
 # Playbooks
 
 [[Base/Computer Science/DevOps/Ansible/Ansible|Карта тем]] · [[Base/Computer Science/DevOps/Ansible/Основы/YAML|YAML]] · [[Base/Computer Science/DevOps/Ansible/Playbooks/Модули|Модули]] · [[Base/Computer Science/DevOps/Ansible/Roles/Роли|Роли]] · [[Base/Computer Science/DevOps/Ansible/Playbooks/Управление выполнением|Управление выполнением]]

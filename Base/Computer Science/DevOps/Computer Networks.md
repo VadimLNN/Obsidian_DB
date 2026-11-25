@@ -1,6 +1,12 @@
+---
+tags:
+  - computer-science/networking
+  - linux/networking
+---
+
 # Сети для DevOps — полный конспект
 
-> Конспект составлен по блоку **«2.5 Сети»** из Roadmap DevOps и расширен до практического уровня, который нужен для Linux, Docker, Kubernetes, облаков, траблшутинга и собеседований.
+> Конспект составлен по блоку **«2.5 Сети»** из Roadmap DevOps и расширен до практического уровня, который нужен для [[Linux]], [[Docker]], [[Kubernetes]], облаков, траблшутинга и собеседований.
 
 ---
 
@@ -42,15 +48,15 @@
 
 Сети нужны DevOps почти везде:
 
-- сервер не доступен по SSH;
+- сервер не доступен по [[SSH и передача файлов|SSH]];
 - приложение не может подключиться к БД;
 - контейнер не видит другой контейнер;
-- Kubernetes Service не направляет трафик в Pod;
+- Kubernetes [[Service]] не направляет трафик в Pod;
 - DNS не резолвит имя;
-- Nginx возвращает `502 Bad Gateway`;
+- [[Nginx]] возвращает `502 Bad Gateway`;
 - TLS-сертификат не проходит проверку;
 - порт открыт локально, но недоступен извне;
-- firewall блокирует соединение;
+- [[Firewall|firewall]] блокирует соединение;
 - сервис доступен по IP, но не по доменному имени;
 - есть высокий latency или packet loss.
 
@@ -1688,7 +1694,7 @@ macvlan
 
 Контейнеры используют Linux:
 
-- network namespaces;
+- [[Cgroups и Namespaces|network namespaces]];
 - virtual Ethernet (`veth`);
 - bridge;
 - routing;
@@ -1808,10 +1814,10 @@ Roadmap выделяет:
 
 - CNI;
 - kube-proxy;
-- CoreDNS;
+- [[DNS и Service Discovery|CoreDNS]];
 - сеть между нодами;
 - Service;
-- Ingress;
+- [[Ingress]];
 - NetworkPolicy.
 
 ---

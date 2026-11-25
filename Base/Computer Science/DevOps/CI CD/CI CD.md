@@ -1,7 +1,6 @@
 ---
 tags:
-  - devops
-  - ci-cd
+  - devops/ci-cd
 aliases:
   - CI-CD
   - CI/CD
@@ -11,15 +10,15 @@ aliases:
 
 **CI/CD** — практики частой интеграции изменений, автоматической проверки и воспроизводимой доставки приложения. Pipeline связывает исходный commit, результаты проверок, собранный артефакт и развёрнутую версию.
 
-Начать изучение: [конспекты курса, порядок чтения и карта покрытия](CI%20CD/README.md).
+Начать изучение: [[Base/Computer Science/DevOps/CI CD/README|конспекты курса, порядок чтения и карта покрытия]].
 
-- [Основы и выбор инструментов](CI%20CD/Основы.md) — CI, Delivery, Deployment, проверки и устройство pipeline.
-- [GitLab CI](CI%20CD/GitLab%20CI.md) — YAML, runners, правила запуска, artifacts и cache.
-- [Jenkins](CI%20CD/Jenkins.md) — controller, agents, Jenkinsfile и отличие от GitLab.
-- [Docker в CI/CD](CI%20CD/Docker%20в%20CI%20CD.md) — окружения jobs, services, сборка и публикация образов.
-- [Деплой и безопасность](CI%20CD/Деплой%20и%20безопасность.md) — окружения, секреты, доставка, откат и диагностика.
-- [Практика](CI%20CD/Практика.md) — минимальный проект для обеих платформ, упражнения и критерии результата.
-- [Шпаргалка](CI%20CD/Шпаргалка.md) — понятия, команды и конструкции из курса.
+- [[Base/Computer Science/DevOps/CI CD/Основы|Основы и выбор инструментов]] — CI, Delivery, Deployment, проверки и устройство pipeline.
+- [[Base/Computer Science/DevOps/CI CD/GitLab CI|GitLab CI]] — YAML, runners, правила запуска, artifacts и cache.
+- [[Base/Computer Science/DevOps/CI CD/Jenkins|Jenkins]] — controller, agents, Jenkinsfile и отличие от GitLab.
+- [[Base/Computer Science/DevOps/CI CD/Docker в CI CD|Docker в CI/CD]] — окружения jobs, services, сборка и публикация образов.
+- [[Base/Computer Science/DevOps/CI CD/Деплой и безопасность|Деплой и безопасность]] — окружения, секреты, доставка, откат и диагностика.
+- [[Base/Computer Science/DevOps/CI CD/Практика|Практика]] — минимальный проект для обеих платформ, упражнения и критерии результата.
+- [[Base/Computer Science/DevOps/CI CD/Шпаргалка|Шпаргалка]] — понятия, команды и конструкции из курса.
 
 > [!important]
 > Зелёный pipeline означает, что прошли настроенные обязательные проверки. Он не доказывает отсутствие ошибок и не означает, что приложение уже развёрнуто и доступно пользователям.

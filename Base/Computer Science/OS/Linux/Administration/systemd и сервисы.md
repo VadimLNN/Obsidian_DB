@@ -1,3 +1,8 @@
+---
+tags:
+  - linux/administration
+---
+
 # systemd и сервисы
 
 [[OS/Linux/Linux|Карта Linux]]
@@ -89,7 +94,7 @@ Roadmap предлагает:
 
 - автозапуск;
 - рестарт при падении;
-- лимиты памяти через cgroups;
+- лимиты памяти через [[Cgroups и Namespaces|cgroups]];
 - после `kill -9` сервис должен подняться снова.
 
 ### Проверка

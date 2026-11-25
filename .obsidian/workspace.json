@@ -8,13 +8,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5a3fa5c72da285c1",
+            "id": "2a87d2b12197ad78",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "graph",
               "state": {},
-              "pinned": true,
               "icon": "lucide-git-fork",
               "title": "Граф"
             }
@@ -33,20 +31,6 @@
               "pinned": true,
               "icon": "lucide-file",
               "title": "lections"
-            }
-          },
-          {
-            "id": "2a87d2b12197ad78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Base/Computer Science/DevOps/Ansible/Ansible_Course.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Ansible_Course"
             }
           }
         ]
@@ -230,7 +214,7 @@
       "obsidian-spaced-repetition:Изучать карточки": false
     }
   },
-  "active": "5a3fa5c72da285c1",
+  "active": "2a87d2b12197ad78",
   "lastOpenFiles": [
     "Base/Computer Science/DevOps/Ansible/Ansible_Course.md",
     "Base/Computer Science/DevOps/Ansible/Источники.md",

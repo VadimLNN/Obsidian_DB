@@ -1,3 +1,9 @@
+---
+tags:
+  - research/free6d
+  - robotics/kinematics
+  - robotics/motion-control
+---
 # Математическая основа проекта Free6D.3-2.150
 
 Дата: **30 сентября 2026 года**.

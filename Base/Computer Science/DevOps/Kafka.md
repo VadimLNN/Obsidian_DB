@@ -1,8 +1,6 @@
 ---
 tags:
-  - devops
-  - kafka
-  - messaging
+  - messaging/kafka
 status: todo
 ---
 
